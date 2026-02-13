@@ -220,7 +220,7 @@ const Home: React.FC = () => {
                       <div className="flex items-center gap-4">
                         <div className="w-12 h-12 bg-white rounded-xl border border-gray-100 flex items-center justify-center flex-shrink-0 overflow-hidden shadow-sm">
                           <img
-                            src={`https://placehold.co/100x100/f8fafc/94a3b8?text=${product.name.charAt(0)}`}
+                            src={product.thumbnail || `https://placehold.co/100x100/f8fafc/94a3b8?text=${product.name.charAt(0)}`}
                             alt=""
                             className="w-full h-full object-cover p-1 opacity-80"
                           />

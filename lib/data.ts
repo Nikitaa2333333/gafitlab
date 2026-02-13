@@ -194,8 +194,13 @@ export const PRODUCTS: Product[] = [
     subcategoryId: 'spectrophotometers',
     name: 'Спектрофотометр UV-200',
     specs: ['Диапазон: 190-1100 нм', 'Точность: 0.5 нм', 'Экран: Сенсорный 7"'],
-    description: 'Двухлучевой спектрофотометр для точного анализа.',
+    description: 'Двухлучевой спектрофотометр для точного количественного и качественного анализа в УФ и видимом диапазонах.',
     inStock: true,
+    images: [
+      'https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=1200&auto=format&fit=crop'
+    ],
+    thumbnail: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=200&auto=format&fit=crop'
   },
   {
     id: 'spec-vis-300',
@@ -304,8 +309,13 @@ export const PRODUCTS: Product[] = [
     subcategoryId: 'micro-centrifuge',
     name: 'Микроцентрифуга MC-12',
     specs: ['Скорость: до 15000 об/мин', 'Объем: 1.5-2 мл', 'Емкость: 12 проб'],
-    description: 'Компактная микроцентрифуга для малых объемов.',
+    description: 'Компактная высокоскоростная микроцентрифуга. Идеальна для работы с ПЦР-пробами и микропробирками.',
     inStock: true,
+    images: [
+      'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1200&auto=format&fit=crop'
+    ],
+    thumbnail: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=200&auto=format&fit=crop'
   },
 
   // Лабораторные центрифуги

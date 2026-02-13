@@ -56,7 +56,7 @@ const SubcategoryPage: React.FC = () => {
             >
               <div className="aspect-[4/3] bg-white/50 relative overflow-hidden">
                 <img
-                  src={`https://placehold.co/600x450/f1f5f9/94a3b8?text=${encodeURIComponent(product.name)}`}
+                  src={product.thumbnail || `https://placehold.co/600x450/f1f5f9/94a3b8?text=${encodeURIComponent(product.name)}`}
                   alt={product.name}
                   className="w-full h-full object-cover"
                 />
