@@ -29,7 +29,7 @@ const AppContent: React.FC = () => {
     <div className={`relative min-h-screen font-sans text-gray-900 ${isHomePage ? 'bg-gradient-to-br from-slate-50 to-blue-50/50' : 'bg-[#f8fafc]'}`}>
       <ScrollToTop />
 
-      <GlobalSearch />
+      {!isHomePage && <GlobalSearch />}
 
       <main className="relative z-10">
         <Routes>
