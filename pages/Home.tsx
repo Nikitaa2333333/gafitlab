@@ -167,7 +167,7 @@ const Home: React.FC = () => {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             aria-label="Поиск оборудования"
-            className="block w-full pl-12 pr-4 py-4 rounded-2xl glass-panel text-lg font-medium text-gray-900 placeholder-gray-400 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-100/50 transition-all"
+            className="block w-full pl-12 pr-4 py-4 rounded-2xl glass-panel bg-white/80 text-lg font-medium text-gray-900 placeholder-gray-400 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-100/50 transition-all shadow-lg"
             placeholder="Поиск оборудования..."
           />
 
@@ -209,20 +209,20 @@ const Home: React.FC = () => {
         </div>
 
         {/* Stats Summary */}
-        <div className="flex flex-row justify-center gap-4 sm:gap-8 py-3 sm:py-4 px-4 sm:px-8 glass-panel rounded-2xl border border-white/40 w-full sm:w-auto overflow-x-auto no-scrollbar">
+        <div className="flex flex-row justify-center gap-4 sm:gap-8 py-3 sm:py-4 px-4 sm:px-8 bg-white/90 backdrop-blur-md rounded-2xl border border-white shadow-xl w-full sm:w-auto overflow-x-auto no-scrollbar">
           <div className="text-center min-w-[70px]">
             <span className="block text-xl sm:text-2xl font-bold text-gray-900">{PRODUCTS.length}</span>
-            <span className="text-[10px] sm:text-xs font-semibold text-gray-500 uppercase tracking-widest whitespace-nowrap">Товаров</span>
+            <span className="text-[10px] sm:text-xs font-semibold text-gray-600 uppercase tracking-widest whitespace-nowrap">Товаров</span>
           </div>
-          <div className="w-px h-8 bg-gray-200" />
+          <div className="w-px h-8 bg-gray-100" />
           <div className="text-center min-w-[70px]">
             <span className="block text-xl sm:text-2xl font-bold text-gray-900">{CATEGORIES.length}</span>
-            <span className="text-[10px] sm:text-xs font-semibold text-gray-500 uppercase tracking-widest whitespace-nowrap">Категорий</span>
+            <span className="text-[10px] sm:text-xs font-semibold text-gray-600 uppercase tracking-widest whitespace-nowrap">Категорий</span>
           </div>
-          <div className="w-px h-8 bg-gray-200" />
+          <div className="w-px h-8 bg-gray-100" />
           <div className="text-center min-w-[70px]">
             <span className="block text-xl sm:text-2xl font-bold text-gray-900">12</span>
-            <span className="text-[10px] sm:text-xs font-semibold text-gray-500 uppercase tracking-widest whitespace-nowrap">Брендов</span>
+            <span className="text-[10px] sm:text-xs font-semibold text-gray-600 uppercase tracking-widest whitespace-nowrap">Брендов</span>
           </div>
         </div>
 

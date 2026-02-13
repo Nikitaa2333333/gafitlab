@@ -26,7 +26,16 @@ const AppContent: React.FC = () => {
   const { openModal, isOpen } = useModal();
 
   return (
-    <div className={`relative min-h-screen font-sans text-gray-900 ${isHomePage ? 'bg-gradient-to-br from-slate-50 to-blue-50/50' : 'bg-[#f8fafc]'}`}>
+    <div className={`relative min-h-screen font-sans text-gray-900 overflow-x-hidden ${isHomePage ? 'bg-[#f1f5f9]' : 'bg-[#f1f5f9]'}`}>
+      {/* Mesh Gradient Background Elements */}
+      <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
+        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-200/30 blur-[120px] rounded-full animate-pulse" />
+        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-200/30 blur-[120px] rounded-full" />
+        {isHomePage && (
+          <div className="absolute top-[20%] right-[-5%] w-[30%] h-[30%] bg-sky-200/20 blur-[100px] rounded-full" />
+        )}
+      </div>
+
       <ScrollToTop />
 
       {!isHomePage && <GlobalSearch />}
