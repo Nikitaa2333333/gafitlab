@@ -197,9 +197,9 @@ export const PRODUCTS: Product[] = [
     description: 'Двухлучевой спектрофотометр для точного количественного и качественного анализа в УФ и видимом диапазонах.',
     inStock: true,
     images: [
-      'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-spec.jpg'
+      'https://loremflickr.com/1200/900/spectrophotometer,lab?lock=30'
     ],
-    thumbnail: 'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-spec.jpg'
+    thumbnail: 'https://loremflickr.com/400/400/spectrophotometer,lab?lock=30'
   },
   {
     id: 'spec-vis-300',
@@ -311,9 +311,9 @@ export const PRODUCTS: Product[] = [
     description: 'Компактная высокоскоростная микроцентрифуга. Идеальна для работы с ПЦР-пробами и микропробирками.',
     inStock: true,
     images: [
-      'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-centrifuge.jpg'
+      'https://loremflickr.com/1200/900/centrifuge,medical?lock=20'
     ],
-    thumbnail: 'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-centrifuge.jpg'
+    thumbnail: 'https://loremflickr.com/400/400/centrifuge,medical?lock=20'
   },
 
   // Лабораторные центрифуги
@@ -383,11 +383,11 @@ export const PRODUCTS: Product[] = [
     description: 'Стереомикроскоп для наблюдения объемных образцов. Оснащен высококачественной оптикой и регулируемой системой освещения.',
     inStock: true,
     images: [
-      'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-1.jpg',
-      'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-2.jpg',
-      'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-3.jpg'
+      'https://loremflickr.com/1200/900/microscope?lock=10',
+      'https://loremflickr.com/1200/900/laboratory,optics?lock=11',
+      'https://loremflickr.com/1200/900/science,detail?lock=12'
     ],
-    thumbnail: 'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-1.jpg'
+    thumbnail: 'https://loremflickr.com/400/400/microscope?lock=10'
   },
 
   // Цифровые микроскопы
