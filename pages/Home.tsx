@@ -213,20 +213,21 @@ const Home: React.FC = () => {
           </div>
 
           {/* Popular Search Tags */}
-          {searchQuery.length === 0 && (
-            <div className="mt-4 flex flex-wrap justify-center gap-2">
-              <span className="text-xs font-bold text-gray-400 self-center mr-1">Часто ищут:</span>
-              {['Микроскопы', 'Центрифуги', 'Шкафы', 'Пипетки'].map(tag => (
-                <button
-                  key={tag}
-                  onClick={() => setSearchQuery(tag)}
-                  className="text-xs font-medium px-3 py-1.5 rounded-full bg-white/50 border border-white/40 text-gray-600 hover:bg-white hover:text-blue-600 hover:border-blue-200 transition-all shadow-sm"
-                >
-                  {tag}
-                </button>
-              ))}
-            </div>
-          )}
+          <div className={clsx(
+            "mt-4 flex flex-wrap justify-center gap-2 transition-opacity duration-300",
+            searchQuery.length > 0 ? "opacity-0 pointer-events-none" : "opacity-100"
+          )}>
+            <span className="text-xs font-bold text-gray-400 self-center mr-1">Часто ищут:</span>
+            {['Микроскопы', 'Центрифуги', 'Шкафы', 'Пипетки'].map(tag => (
+              <button
+                key={tag}
+                onClick={() => setSearchQuery(tag)}
+                className="text-xs font-medium px-3 py-1.5 rounded-full bg-white/50 border border-white/40 text-gray-600 hover:bg-white hover:text-blue-600 hover:border-blue-200 transition-all shadow-sm"
+              >
+                {tag}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Stats Summary */}
