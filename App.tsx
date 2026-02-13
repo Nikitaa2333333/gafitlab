@@ -23,7 +23,7 @@ const ScrollToTop = () => {
 const AppContent: React.FC = () => {
   const location = useLocation();
   const isHomePage = location.pathname === '/';
-  const { openModal } = useModal();
+  const { openModal, isOpen } = useModal();
 
   return (
     <div className={`relative min-h-screen font-sans text-gray-900 ${isHomePage ? 'bg-gradient-to-br from-slate-50 to-blue-50/50' : 'bg-[#f8fafc]'}`}>
@@ -44,13 +44,15 @@ const AppContent: React.FC = () => {
       <FeedbackModal />
 
       {/* Floating Action Button - Global */}
-      <button
-        onClick={() => openModal()}
-        aria-label="Связаться с менеджером"
-        className="fixed bottom-8 right-8 bg-gray-900 text-white px-8 py-4 rounded-full shadow-2xl z-50 flex items-center justify-center font-semibold whitespace-nowrap hover:bg-gray-800 active:scale-95 transition-all"
-      >
-        Связаться с менеджером
-      </button>
+      {!isOpen && (
+        <button
+          onClick={() => openModal()}
+          aria-label="Связаться с менеджером"
+          className="fixed bottom-6 left-1/2 -translate-x-1/2 md:left-auto md:right-8 md:translate-x-0 bg-gray-900 text-white px-8 py-4 rounded-full shadow-2xl z-50 flex items-center justify-center font-semibold whitespace-nowrap hover:bg-gray-800 active:scale-95 transition-all w-[calc(100%-32px)] md:w-auto"
+        >
+          Связаться с менеджером
+        </button>
+      )}
 
       <footer className="relative z-10 py-12 text-center text-gray-400 text-sm mt-12 glass-panel border-t border-b-0 border-x-0 rounded-none bg-white/30">
         <p>&copy; {new Date().getFullYear()} Graphic Lab. Premium Equipment.</p>

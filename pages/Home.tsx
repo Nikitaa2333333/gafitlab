@@ -209,20 +209,20 @@ const Home: React.FC = () => {
         </div>
 
         {/* Stats Summary */}
-        <div className="flex flex-wrap justify-center gap-8 py-4 px-8 glass-panel rounded-2xl border border-white/40">
-          <div className="text-center">
-            <span className="block text-2xl font-bold text-gray-900">{PRODUCTS.length}</span>
-            <span className="text-xs font-semibold text-gray-500 uppercase tracking-widest">Товаров</span>
+        <div className="flex flex-row justify-center gap-4 sm:gap-8 py-3 sm:py-4 px-4 sm:px-8 glass-panel rounded-2xl border border-white/40 w-full sm:w-auto overflow-x-auto no-scrollbar">
+          <div className="text-center min-w-[70px]">
+            <span className="block text-xl sm:text-2xl font-bold text-gray-900">{PRODUCTS.length}</span>
+            <span className="text-[10px] sm:text-xs font-semibold text-gray-500 uppercase tracking-widest whitespace-nowrap">Товаров</span>
           </div>
-          <div className="w-px h-8 bg-gray-200 hidden sm:block" />
-          <div className="text-center">
-            <span className="block text-2xl font-bold text-gray-900">{CATEGORIES.length}</span>
-            <span className="text-xs font-semibold text-gray-500 uppercase tracking-widest">Категорий</span>
+          <div className="w-px h-8 bg-gray-200" />
+          <div className="text-center min-w-[70px]">
+            <span className="block text-xl sm:text-2xl font-bold text-gray-900">{CATEGORIES.length}</span>
+            <span className="text-[10px] sm:text-xs font-semibold text-gray-500 uppercase tracking-widest whitespace-nowrap">Категорий</span>
           </div>
-          <div className="w-px h-8 bg-gray-200 hidden sm:block" />
-          <div className="text-center">
-            <span className="block text-2xl font-bold text-gray-900">12</span>
-            <span className="text-xs font-semibold text-gray-500 uppercase tracking-widest">Брендов</span>
+          <div className="w-px h-8 bg-gray-200" />
+          <div className="text-center min-w-[70px]">
+            <span className="block text-xl sm:text-2xl font-bold text-gray-900">12</span>
+            <span className="text-[10px] sm:text-xs font-semibold text-gray-500 uppercase tracking-widest whitespace-nowrap">Брендов</span>
           </div>
         </div>
 
