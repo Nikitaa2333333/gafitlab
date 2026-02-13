@@ -20,21 +20,21 @@ const ProductPage: React.FC = () => {
         {/* Left Column: Images */}
         <div className="space-y-4">
           <div className="glass-panel rounded-3xl overflow-hidden aspect-[4/3] p-4 bg-white/40">
-            <img 
-              src={`https://placehold.co/800x600/f8fafc/94a3b8?text=${encodeURIComponent(product.name)}`} 
+            <img
+              src={`https://placehold.co/800x600/f8fafc/94a3b8?text=${encodeURIComponent(product.name)}`}
               alt={product.name}
               className="w-full h-full object-cover rounded-2xl"
             />
           </div>
           <div className="grid grid-cols-4 gap-4">
             {[1, 2, 3, 4].map((i) => (
-                <div key={i} className="glass-panel rounded-xl aspect-square cursor-pointer hover:border-blue-400 transition-colors overflow-hidden">
-                     <img 
-                        src={`https://placehold.co/200x200/f8fafc/cbd5e1?text=${i}`} 
-                        alt="thumbnail"
-                        className="w-full h-full object-cover opacity-70 hover:opacity-100 transition-opacity"
-                    />
-                </div>
+              <div key={i} className="glass-panel rounded-xl aspect-square cursor-pointer hover:border-blue-400 transition-colors overflow-hidden">
+                <img
+                  src={`https://placehold.co/200x200/f8fafc/cbd5e1?text=${i}`}
+                  alt="thumbnail"
+                  className="w-full h-full object-cover opacity-70 hover:opacity-100 transition-opacity"
+                />
+              </div>
             ))}
           </div>
         </div>
@@ -56,19 +56,22 @@ const ProductPage: React.FC = () => {
             <p>{product.description}</p>
           </div>
 
-          <div className="glass-panel rounded-2xl p-6 mb-8 bg-white/30">
-            <h3 className="text-sm font-bold text-gray-900 uppercase tracking-wider mb-4 flex items-center">
-                <Box className="w-4 h-4 mr-2" />
-                Характеристики
+          <div className="glass-panel rounded-2xl p-8 mb-8 bg-white/40 border border-white shadow-sm">
+            <h3 className="text-lg font-bold text-gray-900 uppercase tracking-wider mb-6 flex items-center border-b border-gray-100 pb-4">
+              <Box className="w-5 h-5 mr-3 text-blue-600" />
+              Технические характеристики
             </h3>
-            <ul className="space-y-3">
-              {product.specs.map((spec, idx) => (
-                <li key={idx} className="flex items-start text-gray-700">
-                  <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mt-2 mr-3 flex-shrink-0" />
-                  {spec}
-                </li>
-              ))}
-            </ul>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
+              {product.specs.map((spec, idx) => {
+                const [label, value] = spec.includes(':') ? spec.split(':') : [spec, ''];
+                return (
+                  <div key={idx} className="flex flex-col border-b border-gray-50 pb-2 last:border-0 md:last:border-b">
+                    <span className="text-xs font-bold text-gray-400 uppercase tracking-tight">{label}</span>
+                    <span className="text-gray-900 font-medium">{value || '✓'}</span>
+                  </div>
+                );
+              })}
+            </div>
           </div>
 
           <div className="mt-auto flex flex-col sm:flex-row gap-4">

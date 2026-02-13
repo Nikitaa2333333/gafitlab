@@ -206,24 +206,49 @@ const Home: React.FC = () => {
               ))}
             </div>
           )}
+
+          {/* Popular Search Tags */}
+          {searchQuery.length === 0 && (
+            <div className="mt-4 flex flex-wrap justify-center gap-2">
+              <span className="text-xs font-bold text-gray-400 uppercase tracking-tighter self-center mr-1">Часто ищут:</span>
+              {['Микроскопы', 'Центрифуги', 'Шкафы', 'Пипетки'].map(tag => (
+                <button
+                  key={tag}
+                  onClick={() => setSearchQuery(tag)}
+                  className="text-xs font-medium px-3 py-1.5 rounded-full bg-white/50 border border-white/40 text-gray-600 hover:bg-white hover:text-blue-600 hover:border-blue-200 transition-all shadow-sm"
+                >
+                  {tag}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Stats Summary */}
         <div className="flex flex-row justify-center gap-4 sm:gap-8 py-3 sm:py-4 px-4 sm:px-8 bg-white/90 backdrop-blur-md rounded-2xl border border-white shadow-xl w-full sm:w-auto overflow-x-auto no-scrollbar">
-          <div className="text-center min-w-[70px]">
+          <button
+            onClick={() => document.getElementById('main-content')?.scrollIntoView({ behavior: 'smooth' })}
+            className="text-center min-w-[70px] hover:scale-105 transition-transform"
+          >
             <span className="block text-xl sm:text-2xl font-bold text-gray-900">{PRODUCTS.length}</span>
             <span className="text-[10px] sm:text-xs font-semibold text-gray-600 uppercase tracking-widest whitespace-nowrap">Товаров</span>
-          </div>
+          </button>
           <div className="w-px h-8 bg-gray-100" />
-          <div className="text-center min-w-[70px]">
+          <button
+            onClick={() => { setSearchMode('category'); document.getElementById('main-content')?.scrollIntoView({ behavior: 'smooth' }); }}
+            className="text-center min-w-[70px] hover:scale-105 transition-transform"
+          >
             <span className="block text-xl sm:text-2xl font-bold text-gray-900">{CATEGORIES.length}</span>
             <span className="text-[10px] sm:text-xs font-semibold text-gray-600 uppercase tracking-widest whitespace-nowrap">Категорий</span>
-          </div>
+          </button>
           <div className="w-px h-8 bg-gray-100" />
-          <div className="text-center min-w-[70px]">
+          <button
+            onClick={() => { setSearchMode('manufacturer'); document.getElementById('main-content')?.scrollIntoView({ behavior: 'smooth' }); }}
+            className="text-center min-w-[70px] hover:scale-105 transition-transform"
+          >
             <span className="block text-xl sm:text-2xl font-bold text-gray-900">12</span>
             <span className="text-[10px] sm:text-xs font-semibold text-gray-600 uppercase tracking-widest whitespace-nowrap">Брендов</span>
-          </div>
+          </button>
         </div>
 
         {/* Toggle */}
@@ -250,37 +275,54 @@ const Home: React.FC = () => {
       </div>
 
       {/* Content */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[200px]">
+      <div id="main-content" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[200px]">
         {searchMode === 'category' ? (
-          CATEGORIES.map((category) => (
-            <Link
-              key={category.id}
-              to={ROUTES.CATEGORY(category.id)}
-              className="glass-card glass-panel rounded-3xl p-8 relative overflow-hidden group border border-white/40 hover:bg-white/60"
-            >
-              <div className="absolute -bottom-4 -right-4 w-40 h-40 transform rotate-12">
-                {getIcon(category.id)}
-              </div>
+          CATEGORIES.map((category) => {
+            // Mapping colors for accent line
+            const accentColors: Record<string, string> = {
+              'general-lab': 'bg-blue-500',
+              'consumables': 'bg-emerald-500',
+              'analytical': 'bg-purple-500',
+              'thermo': 'bg-orange-500',
+              'measuring': 'bg-amber-500',
+              'centrifuge': 'bg-teal-500',
+              'furniture': 'bg-slate-400'
+            };
+            const accentColor = accentColors[category.id] || 'bg-blue-400';
 
-              <div className="relative z-10 h-full flex flex-col justify-between">
-                <div>
-                  <div className="flex items-center justify-between mb-2">
-                    <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">
-                      {categoryCounts[category.id] || 0} позиций
-                    </p>
-                    <ChevronRight className="w-4 h-4 text-gray-300 group-hover:text-gray-600" />
+            return (
+              <Link
+                key={category.id}
+                to={ROUTES.CATEGORY(category.id)}
+                className="glass-card glass-panel rounded-3xl p-8 relative overflow-hidden group border border-white/40 hover:bg-white/60"
+              >
+                {/* Accent Highlight Line */}
+                <div className={clsx("absolute top-0 left-0 w-full h-1.5 opacity-40 group-hover:opacity-100 transition-opacity", accentColor)} />
+
+                <div className="absolute -bottom-4 -right-4 w-40 h-40 transform rotate-12">
+                  {getIcon(category.id)}
+                </div>
+
+                <div className="relative z-10 h-full flex flex-col justify-between">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">
+                        {categoryCounts[category.id] || 0} позиций
+                      </p>
+                      <ChevronRight className="w-4 h-4 text-gray-300 group-hover:text-gray-600" />
+                    </div>
+                    <h3 className="text-xl md:text-2xl font-bold text-gray-900 leading-tight hyphens-auto break-words">
+                      {category.name}
+                    </h3>
                   </div>
-                  <h3 className="text-xl md:text-2xl font-bold text-gray-900 leading-tight hyphens-auto break-words">
-                    {category.name}
-                  </h3>
-                </div>
 
-                <div className="text-sm font-medium text-blue-600 opacity-0 group-hover:opacity-100">
-                  Посмотреть все
+                  <div className="text-sm font-medium text-blue-600 opacity-0 group-hover:opacity-100">
+                    Посмотреть все
+                  </div>
                 </div>
-              </div>
-            </Link>
-          ))
+              </Link>
+            );
+          })
         ) : (
           Array.from({ length: 8 }).map((_, i) => (
             <div key={i} className="glass-panel rounded-3xl p-8 flex items-center justify-center col-span-1 row-span-1 hover:bg-white/60 cursor-pointer group text-center">
