@@ -253,7 +253,7 @@ const Home: React.FC = () => {
                     <p className="text-sm text-gray-500 mb-4">Подберем оборудование под вашу задачу за 15 минут.</p>
                     <button
                       onClick={() => { (window as any).openModal?.(); setSearchQuery(''); }}
-                      className="bg-gray-900 text-white text-xs font-bold px-6 py-3 rounded-xl hover:bg-gray-800 transition-all active:scale-95"
+                      className="bg-gray-900 text-white text-xs font-bold px-6 py-3 rounded-full hover:bg-gray-800 transition-all active:scale-95"
                     >
                       Связаться с менеджером
                     </button>
@@ -309,11 +309,11 @@ const Home: React.FC = () => {
         </div>
 
         {/* Toggle */}
-        <div className="flex gap-2 p-1 bg-white/30 backdrop-blur-md rounded-xl border border-white/40">
+        <div className="flex gap-2 p-1 bg-white/30 backdrop-blur-md rounded-2xl border border-white/40">
           <button
             onClick={() => setSearchMode('category')}
             className={clsx(
-              "px-6 py-2 rounded-lg text-sm font-semibold min-h-[44px]",
+              "px-6 py-2 rounded-xl text-sm font-semibold min-h-[44px]",
               searchMode === 'category' ? "bg-white shadow-sm text-gray-900" : "text-gray-500 hover:text-gray-700"
             )}
           >
@@ -322,7 +322,7 @@ const Home: React.FC = () => {
           <button
             onClick={() => setSearchMode('manufacturer')}
             className={clsx(
-              "px-6 py-2 rounded-lg text-sm font-semibold min-h-[44px]",
+              "px-6 py-2 rounded-xl text-sm font-semibold min-h-[44px]",
               searchMode === 'manufacturer' ? "bg-white shadow-sm text-gray-900" : "text-gray-500 hover:text-gray-700"
             )}
           >

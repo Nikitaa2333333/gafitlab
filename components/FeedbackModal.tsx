@@ -140,7 +140,7 @@ const FeedbackModal: React.FC = () => {
             <button
               type="submit"
               disabled={formState === 'submitting'}
-              className="w-full bg-gray-900 hover:bg-gray-800 text-white font-bold py-4 rounded-xl shadow-lg transition-all flex items-center justify-center"
+              className="w-full bg-gray-900 hover:bg-gray-800 text-white font-bold py-4 rounded-full shadow-lg transition-all flex items-center justify-center"
             >
               {formState === 'submitting' ? (
                 <Loader2 className="w-5 h-5 animate-spin" />

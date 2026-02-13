@@ -77,13 +77,12 @@ const ProductPage: React.FC = () => {
           <div className="mt-auto flex flex-col sm:flex-row gap-4">
             <button
               onClick={() => openModal(product.name)}
-              className="flex-1 bg-gray-900 text-white font-bold text-lg py-4 px-8 rounded-xl hover:bg-gray-800 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all"
+              className="flex-1 bg-gray-900 text-white font-bold text-lg py-4 px-8 rounded-full hover:bg-gray-800 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all"
             >
-              Запросить цену
+              Запросить КП
             </button>
-            <button className="flex-1 border-2 border-gray-900 text-gray-900 font-bold text-lg py-4 px-8 rounded-xl hover:bg-gray-50 transition-colors flex items-center justify-center gap-2">
-              <Download className="w-5 h-5" />
-              <span>PDF Спецификация</span>
+            <button className="flex-1 border-2 border-gray-900 text-gray-900 font-bold text-lg py-4 px-8 rounded-full hover:bg-gray-50 transition-colors flex items-center justify-center gap-2">
+              Связаться с менеджером
             </button>
           </div>
         </div>
