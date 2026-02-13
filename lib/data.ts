@@ -197,10 +197,9 @@ export const PRODUCTS: Product[] = [
     description: 'Двухлучевой спектрофотометр для точного количественного и качественного анализа в УФ и видимом диапазонах.',
     inStock: true,
     images: [
-      'https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=1200&auto=format&fit=crop'
+      'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-spec.jpg'
     ],
-    thumbnail: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=200&auto=format&fit=crop'
+    thumbnail: 'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-spec.jpg'
   },
   {
     id: 'spec-vis-300',
@@ -312,10 +311,9 @@ export const PRODUCTS: Product[] = [
     description: 'Компактная высокоскоростная микроцентрифуга. Идеальна для работы с ПЦР-пробами и микропробирками.',
     inStock: true,
     images: [
-      'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1200&auto=format&fit=crop'
+      'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-centrifuge.jpg'
     ],
-    thumbnail: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=200&auto=format&fit=crop'
+    thumbnail: 'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-centrifuge.jpg'
   },
 
   // Лабораторные центрифуги
@@ -385,12 +383,11 @@ export const PRODUCTS: Product[] = [
     description: 'Стереомикроскоп для наблюдения объемных образцов. Оснащен высококачественной оптикой и регулируемой системой освещения.',
     inStock: true,
     images: [
-      'https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1581093588401-fbb62a02f120?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1579154273841-49113959563d?q=80&w=1200&auto=format&fit=crop'
+      'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-1.jpg',
+      'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-2.jpg',
+      'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-3.jpg'
     ],
-    thumbnail: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=200&auto=format&fit=crop'
+    thumbnail: 'https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/lab-1.jpg'
   },
 
   // Цифровые микроскопы
