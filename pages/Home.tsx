@@ -153,7 +153,7 @@ const Home: React.FC = () => {
       </svg>
       {/* Header */}
       <div className="flex flex-col items-center justify-center mb-16 space-y-8">
-        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter text-transparent bg-clip-text bg-gradient-to-br from-gray-900 via-gray-700 to-gray-500 text-center">
+        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-gray-900 via-gray-700 to-gray-500 text-center py-2 leading-tight">
           Graphic Lab
         </h1>
 
