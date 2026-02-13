@@ -17,5 +17,7 @@ export interface Product {
   specs: string[];
   description: string;
   inStock: boolean;
-  price?: string; // Optional for mocks
+  price?: string;
+  images?: string[];
+  thumbnail?: string;
 }

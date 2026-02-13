@@ -4,11 +4,17 @@ import { PRODUCTS } from '../lib/data';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { CheckCircle2, Download, Box } from 'lucide-react';
 import { useModal } from '../context/ModalContext';
+import clsx from 'clsx';
 
 const ProductPage: React.FC = () => {
   const { productId } = useParams<{ productId: string }>();
   const product = PRODUCTS.find(p => p.id === productId);
   const { openModal } = useModal();
+  const [activeImage, setActiveImage] = React.useState(0);
+
+  React.useEffect(() => {
+    setActiveImage(0);
+  }, [productId]);
 
   if (!product) return <div className="p-20 text-center">Товар не найден</div>;
 
@@ -21,18 +27,25 @@ const ProductPage: React.FC = () => {
         <div className="space-y-4">
           <div className="glass-panel rounded-3xl overflow-hidden aspect-[4/3] p-4 bg-white/40">
             <img
-              src={`https://placehold.co/800x600/f8fafc/94a3b8?text=${encodeURIComponent(product.name)}`}
+              src={product.images ? product.images[activeImage] : `https://placehold.co/800x600/f8fafc/94a3b8?text=${encodeURIComponent(product.name)}`}
               alt={product.name}
-              className="w-full h-full object-cover rounded-2xl"
+              className="w-full h-full object-cover rounded-2xl transition-all duration-500"
             />
           </div>
           <div className="grid grid-cols-4 gap-4">
-            {[1, 2, 3, 4].map((i) => (
-              <div key={i} className="glass-panel rounded-xl aspect-square cursor-pointer hover:border-blue-400 transition-colors overflow-hidden">
+            {(product.images || [1, 2, 3, 4]).map((img, i) => (
+              <div
+                key={i}
+                onClick={() => setActiveImage(i)}
+                className={clsx(
+                  "glass-panel rounded-xl aspect-square cursor-pointer transition-all overflow-hidden border-2",
+                  activeImage === i ? "border-blue-500 shadow-md scale-95" : "border-transparent opacity-70 hover:opacity-100"
+                )}
+              >
                 <img
-                  src={`https://placehold.co/200x200/f8fafc/cbd5e1?text=${i}`}
+                  src={typeof img === 'string' ? img : `https://placehold.co/200x200/f8fafc/cbd5e1?text=${img}`}
                   alt="thumbnail"
-                  className="w-full h-full object-cover opacity-70 hover:opacity-100 transition-opacity"
+                  className="w-full h-full object-cover"
                 />
               </div>
             ))}

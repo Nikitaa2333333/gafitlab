@@ -372,8 +372,15 @@ export const PRODUCTS: Product[] = [
     subcategoryId: 'optical-microscopes',
     name: 'Стереомикроскоп SM-20',
     specs: ['Увеличение: 20x-40x', 'Подсветка: верхняя/нижняя LED', 'Рабочее расстояние: 100 мм'],
-    description: 'Стереомикроскоп для наблюдения объемных образцов.',
+    description: 'Стереомикроскоп для наблюдения объемных образцов. Оснащен высококачественной оптикой и регулируемой системой освещения.',
     inStock: true,
+    images: [
+      'https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1581093588401-fbb62a02f120?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1579154273841-49113959563d?q=80&w=1200&auto=format&fit=crop'
+    ],
+    thumbnail: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=200&auto=format&fit=crop'
   },
 
   // Цифровые микроскопы
