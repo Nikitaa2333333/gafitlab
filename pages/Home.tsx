@@ -15,7 +15,8 @@ import {
   Wind,
   Sparkles,
   Armchair,
-  ChevronRight
+  ChevronRight,
+  X
 } from 'lucide-react';
 import { CATEGORIES, PRODUCTS, SUBCATEGORIES } from '../lib/data';
 import clsx from 'clsx';
@@ -96,6 +97,24 @@ const Home: React.FC = () => {
     return [];
   }, [searchQuery, fuse]);
 
+  // Helper for highlighting text matches
+  const HighlightText = ({ text, query }: { text: string; query: string }) => {
+    if (!query.trim()) return <>{text}</>;
+    const regex = new RegExp(`(${query})`, 'gi');
+    const parts = text.split(regex);
+    return (
+      <>
+        {parts.map((part, i) =>
+          part.toLowerCase() === query.toLowerCase() ? (
+            <span key={i} className="text-blue-600 font-bold">{part}</span>
+          ) : (
+            part
+          )
+        )}
+      </>
+    );
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 pt-10">
       {/* SVG Gradients Definition */}
@@ -165,9 +184,21 @@ const Home: React.FC = () => {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               aria-label="Поиск оборудования"
-              className="block w-full pl-6 pr-16 py-4 rounded-2xl glass-panel bg-white/80 text-lg font-medium text-gray-900 placeholder-gray-400 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-100/50 transition-all shadow-lg"
+              className="block w-full pl-6 pr-24 py-4 rounded-2xl glass-panel bg-white/80 text-lg font-medium text-gray-900 placeholder-gray-400 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-100/50 transition-all shadow-lg"
               placeholder="Поиск оборудования..."
             />
+
+            {/* Clear Button */}
+            {searchQuery && (
+              <button
+                onClick={() => setSearchQuery('')}
+                className="absolute right-14 p-2 text-gray-400 hover:text-gray-600 transition-colors"
+                aria-label="Очистить поиск"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            )}
+
             <button
               onClick={() => searchQuery.trim().length >= 2 && console.log('Search triggered:', searchQuery)}
               className="absolute right-2 p-3 bg-gray-900 text-white rounded-xl hover:bg-gray-800 transition-all active:scale-95 shadow-md flex items-center justify-center group z-20"
@@ -176,38 +207,58 @@ const Home: React.FC = () => {
             </button>
 
             {/* Search Results Dropdown */}
-            {searchResults.length > 0 && (
+            {searchQuery.trim().length >= 2 && (
               <div className="absolute top-full mt-2 w-full glass-panel rounded-2xl shadow-2xl overflow-hidden z-50 max-h-96 overflow-y-auto">
-                {searchResults.map((product) => (
-                  <Link
-                    key={product.id}
-                    to={ROUTES.PRODUCT(product.categoryId!, product.subcategoryId, product.id)}
-                    onClick={() => setSearchQuery('')}
-                    className="block px-4 py-3 hover:bg-white/50 transition-colors border-b border-gray-100 last:border-b-0"
-                  >
-                    <div className="flex items-start gap-3">
-                      <div className="w-10 h-10 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <Package className="w-5 h-5 text-indigo-600" />
-                      </div>
+                {searchResults.length > 0 ? (
+                  searchResults.map((product) => (
+                    <Link
+                      key={product.id}
+                      to={ROUTES.PRODUCT(product.categoryId!, product.subcategoryId, product.id)}
+                      onClick={() => setSearchQuery('')}
+                      className="block px-4 py-3 hover:bg-white/50 transition-colors border-b border-gray-100 last:border-b-0"
+                    >
+                      <div className="flex items-center gap-4">
+                        <div className="w-12 h-12 bg-white rounded-xl border border-gray-100 flex items-center justify-center flex-shrink-0 overflow-hidden shadow-sm">
+                          <img
+                            src={`https://placehold.co/100x100/f8fafc/94a3b8?text=${product.name.charAt(0)}`}
+                            alt=""
+                            className="w-full h-full object-cover p-1 opacity-80"
+                          />
+                        </div>
 
-                      <div className="flex-1 min-w-0">
-                        <h4 className="text-sm font-semibold text-gray-900">
-                          {product.name}
-                        </h4>
-                        <p className="text-xs text-gray-500 mt-0.5 line-clamp-1">
-                          {product.categoryName} → {product.subcategoryName}
-                        </p>
-                      </div>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="text-sm font-bold text-gray-900 truncate">
+                            <HighlightText text={product.name} query={searchQuery} />
+                          </h4>
+                          <p className="text-[10px] font-medium text-gray-500 mt-0.5">
+                            {product.categoryName} → {product.subcategoryName}
+                          </p>
+                        </div>
 
-                      <div className={`text-xs px-2 py-1 rounded-full flex-shrink-0 ${product.inStock
-                        ? 'bg-green-100 text-green-700'
-                        : 'bg-gray-100 text-gray-500'
-                        }`}>
-                        {product.inStock ? 'В наличии' : 'Под заказ'}
+                        <div className={`text-[10px] px-2 py-0.5 rounded-lg flex-shrink-0 font-bold ${product.inStock
+                          ? 'bg-green-50 text-green-700'
+                          : 'bg-gray-50 text-gray-400'
+                          }`}>
+                          {product.inStock ? 'В наличии' : 'Под заказ'}
+                        </div>
                       </div>
+                    </Link>
+                  ))
+                ) : (
+                  <div className="p-8 text-center bg-white/50">
+                    <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Search className="w-8 h-8 text-blue-400 opacity-50" />
                     </div>
-                  </Link>
-                ))}
+                    <p className="text-gray-900 font-bold mb-1">Ничего не нашли?</p>
+                    <p className="text-sm text-gray-500 mb-4">Подберем оборудование под вашу задачу за 15 минут.</p>
+                    <button
+                      onClick={() => { (window as any).openModal?.(); setSearchQuery(''); }}
+                      className="bg-gray-900 text-white text-xs font-bold px-6 py-3 rounded-xl hover:bg-gray-800 transition-all active:scale-95"
+                    >
+                      Связаться с менеджером
+                    </button>
+                  </div>
+                )}
               </div>
             )}
           </div>
