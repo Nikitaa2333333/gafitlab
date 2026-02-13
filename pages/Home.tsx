@@ -154,7 +154,7 @@ const Home: React.FC = () => {
       {/* Header */}
       <div className="flex flex-col items-center justify-center mb-16 space-y-8">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter text-transparent bg-clip-text bg-gradient-to-br from-gray-900 via-gray-700 to-gray-500 text-center">
-          GRAPHIC LAB
+          Graphic Lab
         </h1>
 
         {/* Search Bar Container */}
@@ -215,7 +215,7 @@ const Home: React.FC = () => {
           {/* Popular Search Tags */}
           {searchQuery.length === 0 && (
             <div className="mt-4 flex flex-wrap justify-center gap-2">
-              <span className="text-xs font-bold text-gray-400 uppercase tracking-tighter self-center mr-1">Часто ищут:</span>
+              <span className="text-xs font-bold text-gray-400 self-center mr-1">Часто ищут:</span>
               {['Микроскопы', 'Центрифуги', 'Шкафы', 'Пипетки'].map(tag => (
                 <button
                   key={tag}
@@ -236,7 +236,7 @@ const Home: React.FC = () => {
             className="text-center min-w-[70px] hover:scale-105 transition-transform"
           >
             <span className="block text-xl sm:text-2xl font-bold text-gray-900">{PRODUCTS.length}</span>
-            <span className="text-[10px] sm:text-xs font-semibold text-gray-600 uppercase tracking-widest whitespace-nowrap">Товаров</span>
+            <span className="text-[10px] sm:text-xs font-semibold text-gray-600 whitespace-nowrap">Товаров</span>
           </button>
           <div className="w-px h-8 bg-gray-100" />
           <button
@@ -244,7 +244,7 @@ const Home: React.FC = () => {
             className="text-center min-w-[70px] hover:scale-105 transition-transform"
           >
             <span className="block text-xl sm:text-2xl font-bold text-gray-900">{CATEGORIES.length}</span>
-            <span className="text-[10px] sm:text-xs font-semibold text-gray-600 uppercase tracking-widest whitespace-nowrap">Категорий</span>
+            <span className="text-[10px] sm:text-xs font-semibold text-gray-600 whitespace-nowrap">Категорий</span>
           </button>
           <div className="w-px h-8 bg-gray-100" />
           <button
@@ -252,7 +252,7 @@ const Home: React.FC = () => {
             className="text-center min-w-[70px] hover:scale-105 transition-transform"
           >
             <span className="block text-xl sm:text-2xl font-bold text-gray-900">12</span>
-            <span className="text-[10px] sm:text-xs font-semibold text-gray-600 uppercase tracking-widest whitespace-nowrap">Брендов</span>
+            <span className="text-[10px] sm:text-xs font-semibold text-gray-600 whitespace-nowrap">Брендов</span>
           </button>
         </div>
 
@@ -295,7 +295,7 @@ const Home: React.FC = () => {
               <div className="relative z-10 h-full flex flex-col justify-between">
                 <div>
                   <div className="flex items-center justify-between mb-2">
-                    <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">
+                    <p className="text-xs font-bold text-gray-400">
                       {categoryCounts[category.id] || 0} позиций
                     </p>
                     <ChevronRight className="w-4 h-4 text-gray-300 group-hover:text-gray-600" />

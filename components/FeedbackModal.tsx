@@ -95,7 +95,7 @@ const FeedbackModal: React.FC = () => {
 
             <div className="space-y-4">
               <div>
-                <label htmlFor="name-input" className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">Имя</label>
+                <label htmlFor="name-input" className="block text-xs font-semibold text-gray-500 mb-1">Имя</label>
                 <input
                   id="name-input"
                   required
@@ -116,7 +116,7 @@ const FeedbackModal: React.FC = () => {
                 )}
               </div>
               <div>
-                <label htmlFor="phone-input" className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">Телефон</label>
+                <label htmlFor="phone-input" className="block text-xs font-semibold text-gray-500 mb-1">Телефон</label>
                 <input
                   id="phone-input"
                   required

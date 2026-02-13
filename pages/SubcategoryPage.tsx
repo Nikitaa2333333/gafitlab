@@ -34,7 +34,7 @@ const SubcategoryPage: React.FC = () => {
         </div>
 
         <div className="flex items-center gap-2">
-          <span className="text-sm font-semibold text-gray-400 uppercase tracking-wider">Сортировать:</span>
+          <span className="text-sm font-semibold text-gray-400">Сортировать:</span>
           <select
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value as any)}

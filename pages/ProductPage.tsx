@@ -57,7 +57,7 @@ const ProductPage: React.FC = () => {
           </div>
 
           <div className="glass-panel rounded-2xl p-8 mb-8 bg-white/40 border border-white shadow-sm">
-            <h3 className="text-lg font-bold text-gray-900 uppercase tracking-wider mb-6 flex items-center border-b border-gray-100 pb-4">
+            <h3 className="text-lg font-bold text-gray-900 tracking-wider mb-6 flex items-center border-b border-gray-100 pb-4">
               <Box className="w-5 h-5 mr-3 text-blue-600" />
               Технические характеристики
             </h3>
@@ -66,7 +66,7 @@ const ProductPage: React.FC = () => {
                 const [label, value] = spec.includes(':') ? spec.split(':') : [spec, ''];
                 return (
                   <div key={idx} className="flex flex-col border-b border-gray-50 pb-2 last:border-0 md:last:border-b">
-                    <span className="text-xs font-bold text-gray-400 uppercase tracking-tight">{label}</span>
+                    <span className="text-xs font-bold text-gray-400 tracking-tight">{label}</span>
                     <span className="text-gray-900 font-medium">{value || '✓'}</span>
                   </div>
                 );
