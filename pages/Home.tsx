@@ -157,55 +157,60 @@ const Home: React.FC = () => {
           GRAPHIC LAB
         </h1>
 
-        {/* Search Bar */}
-        <div className="relative w-full max-w-2xl group">
-          <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none z-10">
-            <Search className="h-7 w-7 text-gray-500 group-focus-within:text-blue-600 transition-colors stroke-[2.5]" />
+        {/* Search Bar Container */}
+        <div className="w-full max-w-2xl group flex flex-col items-center">
+          <div className="relative w-full flex items-center">
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              aria-label="Поиск оборудования"
+              className="block w-full pl-6 pr-16 py-4 rounded-2xl glass-panel bg-white/80 text-lg font-medium text-gray-900 placeholder-gray-400 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-100/50 transition-all shadow-lg"
+              placeholder="Поиск оборудования..."
+            />
+            <button
+              onClick={() => searchQuery.trim().length >= 2 && console.log('Search triggered:', searchQuery)}
+              className="absolute right-2 p-3 bg-gray-900 text-white rounded-xl hover:bg-gray-800 transition-all active:scale-95 shadow-md flex items-center justify-center group z-20"
+            >
+              <Search className="h-6 w-6 group-hover:scale-110 transition-transform stroke-[2.5]" />
+            </button>
+
+            {/* Search Results Dropdown */}
+            {searchResults.length > 0 && (
+              <div className="absolute top-full mt-2 w-full glass-panel rounded-2xl shadow-2xl overflow-hidden z-50 max-h-96 overflow-y-auto">
+                {searchResults.map((product) => (
+                  <Link
+                    key={product.id}
+                    to={ROUTES.PRODUCT(product.categoryId!, product.subcategoryId, product.id)}
+                    onClick={() => setSearchQuery('')}
+                    className="block px-4 py-3 hover:bg-white/50 transition-colors border-b border-gray-100 last:border-b-0"
+                  >
+                    <div className="flex items-start gap-3">
+                      <div className="w-10 h-10 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Package className="w-5 h-5 text-indigo-600" />
+                      </div>
+
+                      <div className="flex-1 min-w-0">
+                        <h4 className="text-sm font-semibold text-gray-900">
+                          {product.name}
+                        </h4>
+                        <p className="text-xs text-gray-500 mt-0.5 line-clamp-1">
+                          {product.categoryName} → {product.subcategoryName}
+                        </p>
+                      </div>
+
+                      <div className={`text-xs px-2 py-1 rounded-full flex-shrink-0 ${product.inStock
+                        ? 'bg-green-100 text-green-700'
+                        : 'bg-gray-100 text-gray-500'
+                        }`}>
+                        {product.inStock ? 'В наличии' : 'Под заказ'}
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
-          <input
-            type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            aria-label="Поиск оборудования"
-            className="block w-full pl-12 pr-4 py-4 rounded-2xl glass-panel bg-white/80 text-lg font-medium text-gray-900 placeholder-gray-400 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-100/50 transition-all shadow-lg"
-            placeholder="Поиск оборудования..."
-          />
-
-          {/* Search Results Dropdown */}
-          {searchResults.length > 0 && (
-            <div className="absolute top-full mt-2 w-full glass-panel rounded-2xl shadow-2xl overflow-hidden z-50 max-h-96 overflow-y-auto">
-              {searchResults.map((product) => (
-                <Link
-                  key={product.id}
-                  to={ROUTES.PRODUCT(product.categoryId!, product.subcategoryId, product.id)}
-                  onClick={() => setSearchQuery('')}
-                  className="block px-4 py-3 hover:bg-white/50 transition-colors border-b border-gray-100 last:border-b-0"
-                >
-                  <div className="flex items-start gap-3">
-                    <div className="w-10 h-10 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Package className="w-5 h-5 text-indigo-600" />
-                    </div>
-
-                    <div className="flex-1 min-w-0">
-                      <h4 className="text-sm font-semibold text-gray-900">
-                        {product.name}
-                      </h4>
-                      <p className="text-xs text-gray-500 mt-0.5 line-clamp-1">
-                        {product.categoryName} → {product.subcategoryName}
-                      </p>
-                    </div>
-
-                    <div className={`text-xs px-2 py-1 rounded-full flex-shrink-0 ${product.inStock
-                      ? 'bg-green-100 text-green-700'
-                      : 'bg-gray-100 text-gray-500'
-                      }`}>
-                      {product.inStock ? 'В наличии' : 'Под заказ'}
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          )}
 
           {/* Popular Search Tags */}
           {searchQuery.length === 0 && (
@@ -277,52 +282,35 @@ const Home: React.FC = () => {
       {/* Content */}
       <div id="main-content" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[200px]">
         {searchMode === 'category' ? (
-          CATEGORIES.map((category) => {
-            // Mapping colors for accent line
-            const accentColors: Record<string, string> = {
-              'general-lab': 'bg-blue-500',
-              'consumables': 'bg-emerald-500',
-              'analytical': 'bg-purple-500',
-              'thermo': 'bg-orange-500',
-              'measuring': 'bg-amber-500',
-              'centrifuge': 'bg-teal-500',
-              'furniture': 'bg-slate-400'
-            };
-            const accentColor = accentColors[category.id] || 'bg-blue-400';
+          CATEGORIES.map((category) => (
+            <Link
+              key={category.id}
+              to={ROUTES.CATEGORY(category.id)}
+              className="glass-card glass-panel rounded-3xl p-8 relative overflow-hidden group border border-white/40 hover:bg-white/60"
+            >
+              <div className="absolute -bottom-4 -right-4 w-40 h-40 transform rotate-12">
+                {getIcon(category.id)}
+              </div>
 
-            return (
-              <Link
-                key={category.id}
-                to={ROUTES.CATEGORY(category.id)}
-                className="glass-card glass-panel rounded-3xl p-8 relative overflow-hidden group border border-white/40 hover:bg-white/60"
-              >
-                {/* Accent Highlight Line */}
-                <div className={clsx("absolute top-0 left-0 w-full h-1.5 opacity-40 group-hover:opacity-100 transition-opacity", accentColor)} />
-
-                <div className="absolute -bottom-4 -right-4 w-40 h-40 transform rotate-12">
-                  {getIcon(category.id)}
+              <div className="relative z-10 h-full flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center justify-between mb-2">
+                    <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">
+                      {categoryCounts[category.id] || 0} позиций
+                    </p>
+                    <ChevronRight className="w-4 h-4 text-gray-300 group-hover:text-gray-600" />
+                  </div>
+                  <h3 className="text-xl md:text-2xl font-bold text-gray-900 leading-tight hyphens-auto break-words">
+                    {category.name}
+                  </h3>
                 </div>
 
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div>
-                    <div className="flex items-center justify-between mb-2">
-                      <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">
-                        {categoryCounts[category.id] || 0} позиций
-                      </p>
-                      <ChevronRight className="w-4 h-4 text-gray-300 group-hover:text-gray-600" />
-                    </div>
-                    <h3 className="text-xl md:text-2xl font-bold text-gray-900 leading-tight hyphens-auto break-words">
-                      {category.name}
-                    </h3>
-                  </div>
-
-                  <div className="text-sm font-medium text-blue-600 opacity-0 group-hover:opacity-100">
-                    Посмотреть все
-                  </div>
+                <div className="text-sm font-medium text-blue-600 opacity-0 group-hover:opacity-100">
+                  Посмотреть все
                 </div>
-              </Link>
-            );
-          })
+              </div>
+            </Link>
+          ))
         ) : (
           Array.from({ length: 8 }).map((_, i) => (
             <div key={i} className="glass-panel rounded-3xl p-8 flex items-center justify-center col-span-1 row-span-1 hover:bg-white/60 cursor-pointer group text-center">
