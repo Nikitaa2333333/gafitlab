@@ -4,7 +4,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   {
     "id": "TG16-Table-Top-High-Speed-Centrifuge-pd43484933",
     "subcategoryId": "products",
-    "name": "TG16 Настольная High Speed Центрифуга",
+    "name": "TG16 Table Top High Speed Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 16000rpm",
@@ -13,11 +13,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 65",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min",
-      "Temperature Accuracy : ±1℃"
+      "Acc/Dec : 10 Kinds"
     ],
-    "description": "TG16 Настольная High Speed Центрифуга Model: TG16 Brand: Yingtai Code: 8421199090 Download: Br",
+    "description": "TG16 Table Top High Speed Центрифуга...",
     "images": [
       "/images/placeholder.jpg"
     ],
@@ -26,7 +24,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   {
     "id": "TGL16-Table-Top-High-Speed-Centrifuge-pd46344933",
     "subcategoryId": "products",
-    "name": "TGL16 Настольная High Speed Центрифуга",
+    "name": "TGL16 Table Top High Speed Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 16000rpm",
@@ -35,11 +33,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 1~9h59min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 58",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min",
-      "Temperature Accuracy : ±1℃"
+      "Acc/Dec : 10 Kinds"
     ],
-    "description": "TGL16 Настольная High Speed Центрифуга Model: TGL16 Brand: Yingtai Code: 8421199",
+    "description": "TGL16 Table Top High Speed Центрифуга...",
     "images": [
       "/images/placeholder.jpg"
     ],
@@ -48,7 +44,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   {
     "id": "TG20-Table-Top-High-Speed-Centrifuge-pd42264933",
     "subcategoryId": "products",
-    "name": "TG20 Настольная High Speed Центрифуга",
+    "name": "TG20 Table Top High Speed Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 21000rpm",
@@ -57,11 +53,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤60",
-      "Temperature : Normal",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature : Normal"
     ],
-    "description": "TG20 Настольная High Speed Центрифуга Model: TG20 Brand: Yingtai Code: 8421199090 Download: Br",
+    "description": "TG20 Table Top High Speed Центрифуга...",
     "images": [
       "/images/placeholder.jpg"
     ],
@@ -70,7 +64,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   {
     "id": "TGL18A-Table-Top-High-Speed-Refrigerated-Centrifuge-pd513059838",
     "subcategoryId": "products",
-    "name": "TGL18A Настольная High Speed с охлаждением Центрифуга",
+    "name": "TGL18A Table Top High Speed с охлаждением Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 18500rpm",
@@ -79,11 +73,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 1~99h59min59s",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 60",
-      "Acc / Dcc : 10 Kinds",
-      "Speed Accuracy : ±20r/min",
-      "Voltage(V/Hz) : AC 220V/110V  50HZ/60HZ 220 V ± 10%, 50/60 Hz, the plug and cable compliant with local standards"
+      "Acc / Dcc : 10 Kinds"
     ],
-    "description": "TGL18A Настольная High Speed с охлаждением Центрифуга 1. Widely use",
+    "description": "TGL18A Table Top High Speed с охлаждением Центрифуга...",
     "images": [
       "/images/products/TGL18A-Table-Top-High-Speed-Refrigerated-Centrifuge-pd513059838.png"
     ],
@@ -101,19 +93,17 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 1~99h59min59s",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 65",
-      "Temperature : -20 ~ 40℃",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±10r/min"
+      "Temperature : -20 ~ 40℃"
     ],
-    "description": "KAZGRANULATOR CDL7M с охлаждением medical laborator",
+    "description": "KAZGRANULATOR CDL7M с охлаждением medical laboratory Центрифуга...",
     "images": [
-      "/images/products/KAZGRANULATOR-CDL7M-refrigerated-medical-laboratory-centrifuge-pd570185938.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "Yingtai-Iseal-200-Tube-Sealer-pd531764068",
-    "subcategoryId": "products",
+    "subcategoryId": "centrifugal-tubes---bottles",
     "name": "Yingtai Iseal-200 Tube Sealer",
     "specs": [
       "Quantity: : ",
@@ -124,7 +114,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Weight: : 4.5kg : Dimensions: : 360×65×173mm",
       "Operating Temperature: : 0~40℃ : Storage Temperature: : -20~70℃"
     ],
-    "description": "Yingtai Iseal-200 Tube Sealer A device that uses the principle of high-frequency oscillation to generate heat",
+    "description": "Yingtai Iseal-200 Tube Sealer...",
     "images": [
       "/images/products/Yingtai-Iseal-200-Tube-Sealer-pd531764068.png"
     ],
@@ -132,7 +122,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   },
   {
     "id": "Portable-4000rpm-TD4C-Centrifuge-Machine-for-Lab-PRP-PRF-pd49111603",
-    "subcategoryId": "products",
+    "subcategoryId": "prp--cgf-stem-cell-centrifuge",
     "name": "Portable 4000rpm TD4C Центрифуга Machine for Lab, PRP & PRF",
     "specs": [
       "Quantity: : ",
@@ -142,11 +132,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Timer : 0~99min : Noise : ≤55dBA",
       "Dimension : 310x270x220mm : Net Weight : 6.5Kg",
       "Warranty : 1 Year : Certifications : CE, ISO &   Calibration report are available.",
-      "Order No : Rotor : Max Speed(r/min) : Volume(ml) : Max RCF(×g)",
-      "36001 : Angle Rotor : 4000 : 6/8x10ml : 1790",
-      "36002 : Angle Rotor : 4000 : 6/8x15ml : 1880"
+      "Order No : Rotor : Max Speed(r/min) : Volume(ml) : Max RCF(×g)"
     ],
-    "description": "P",
+    "description": "Portable 4000rpm TD4C Центрифуга Machine for Lab, PRP & PRF...",
     "images": [
       "/images/products/Portable-4000rpm-TD4C-Centrifuge-Machine-for-Lab-PRP-PRF-pd49111603.png"
     ],
@@ -164,11 +152,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Timer : 1~99h59min59s : Voltage (V/ HZ) : AC 220V/ 110V  50HZ/60HZ",
       "RPM/ RCF Convert : Yes : Size (W × D × Hmm) : 900x1050x1020mm\n\n（with lid open 1780mm height）",
       "Noise (dB) : ≤ 65 : Net Weight (Kg) : 670KG",
-      "Temperature Range : -20~40ºC : Certificates : CE, ISO & Calibration report are available",
-      "Oeder Number : Rotor Type : Max. Speed (rpm) : Max. Volume(ml) : Max. RCF",
-      "No 05603 : Swing Rotor : 4000 : 6x2400ml : 5330"
+      "Temperature Range : -20~40ºC : Certificates : CE, ISO & Calibration report are available"
     ],
-    "description": "CDL7M 10-inch Screen 12pcs Blood Bag с охлаждением Cen",
+    "description": "CDL7M 10-inch Screen 12pcs Blood Bag с охлаждением Центрифуга with CE&ISO FDA...",
     "images": [
       "/images/products/CDL7M-10-inch-Screen-12pcs-Blood-Bag-Refrigerated-Centrifuge-with-CE-ISO-FDA-pd541545648.png"
     ],
@@ -186,11 +172,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 55",
-      "Temperature : Normal",
-      "Acc/Dcc : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature : Normal"
     ],
-    "description": "TD5 Gerber Центрифуга Features: 1. Microprocessor control, digital display, touch panel, parameters in running can be edited and cha",
+    "description": "TD5 Gerber Центрифуга...",
     "images": [
       "/images/products/TD5-Gerber-Centrifuge-pd518454148.png"
     ],
@@ -198,7 +182,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   },
   {
     "id": "750ml-Bottle-Low-Speed-pd580111178",
-    "subcategoryId": "products",
+    "subcategoryId": "centrifugal-tubes---bottles",
     "name": "750ml Bottle (Low Speed)",
     "specs": [
       "Quantity: : ",
@@ -208,15 +192,15 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Size(O.D×H,mm) : 98.5×140",
       "Max. RCF (×g) : 6000"
     ],
-    "description": "750ml Bottle (Low Speed) This product is made of translucent polypropylene copolymer materia PPCO w",
+    "description": "750ml Bottle (Low Speed)...",
     "images": [
-      "/images/products/750ml-Bottle-Low-Speed-pd580111178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "100ml-Round-bottom-Tube-pd522111178",
-    "subcategoryId": "products",
+    "subcategoryId": "centrifugal-tubes---bottles",
     "name": "100ml Round-bottom Tube",
     "specs": [
       "Quantity: : ",
@@ -226,15 +210,15 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Size(O.D×H,mm) : 41.9×104",
       "Max. RCF (×g) : 50000"
     ],
-    "description": "100ml Round-bottom Tube This product is made of translucent polypropylene copolymer material PPCO wi",
+    "description": "100ml Round-bottom Tube...",
     "images": [
-      "/images/products/100ml-Round-bottom-Tube-pd522111178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "250ml-Centrifuge-Bottle-Low-Speed-pd541111178",
-    "subcategoryId": "products",
+    "subcategoryId": "centrifugal-tubes---bottles",
     "name": "250ml Центрифуга Bottle (Low Speed)",
     "specs": [
       "Quantity: : ",
@@ -244,9 +228,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Size(O.D×H,mm) : 61.8×127.7",
       "Max. RCF (×g) : 27500"
     ],
-    "description": "250ml Центрифуга Bottle (Low Speed) This product is made of translucent polypropylene co",
+    "description": "250ml Центрифуга Bottle (Low Speed)...",
     "images": [
-      "/images/products/250ml-Centrifuge-Bottle-Low-Speed-pd541111178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -262,11 +246,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Timer : 1-9h59min : Voltage (V/ HZ) : AC 220V/ 110V  50HZ/60HZ",
       "RPM/ RCF Convert : Yes : Size (W × D × Hmm) : 940 × 890 × 1000mm",
       "Noise (dB) : ≤ 65 : Net Weight (Kg) : 600KG",
-      "Temperature Range : -20~40ºC : Certificates : CE, ISO & Calibration report are available",
-      "Oeder Number : Rotor Type : Max. Speed (rpm) : Max. Volume(ml) : Max. RCF",
-      "No 05603 : Swing Rotor : 4000 : 6x2400ml : 5330"
+      "Temperature Range : -20~40ºC : Certificates : CE, ISO & Calibration report are available"
     ],
-    "description": "DL8M High-Capacity с охлаждением Центрифуга for Lab Use",
+    "description": "DL8M High-Capacity с охлаждением Центрифуга for Lab Use - CE & ISO Certified...",
     "images": [
       "/images/products/DL8M-High-Capacity-Refrigerated-Centrifuge-for-Lab-Use-CE-ISO-Certified-pd558582648.png"
     ],
@@ -284,11 +266,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Timer : 1-9h59min : Voltage (V/ HZ) : AC 220V/ 110V  50HZ/60HZ",
       "RPM/ RCF Convert : Yes : Size (W × D × Hmm) : 940 × 890 × 1000mm",
       "Noise (dB) : ≤ 65 : Net Weight (Kg) : 600KG",
-      "Temperature Range : -20~40ºC : Certificates : CE, ISO & Calibration report are available",
-      "Oeder Number : Rotor Type : Max. Speed (rpm) : Max. Volume(ml) : Max. RCF",
-      "No 05603 : Swing Rotor : 4000 : 6x2400ml : 5330"
+      "Temperature Range : -20~40ºC : Certificates : CE, ISO & Calibration report are available"
     ],
-    "description": "DL8M 10-inch Screen High-Capacity Refri",
+    "description": "DL8M 10-inch Screen High-Capacity с охлаждением Центрифуга for Lab Use - CE & ISO Certified...",
     "images": [
       "/images/products/DL8M-10-inch-Screen-High-Capacity-Refrigerated-Centrifuge-for-Lab-Use-CE-ISO-Certified-pd536145648.png"
     ],
@@ -306,20 +286,18 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Timer : 1~9h59min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 65",
-      "Temperature Range : -20~40℃",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature Range : -20~40℃"
     ],
-    "description": "GL25M Floor Standing High Speed с охлаждением Центрифуга 1. Brushless frequ",
+    "description": "GL25M Floor Standing High Speed с охлаждением Центрифуга...",
     "images": [
-      "/images/products/GL25M-Floor-Standing-High-Speed-Refrigerated-Centrifuge-pd557707058.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "GL12-Touch-Screen-Floor-Standing-Large-Capacity-Refrigerated-Centrifuge-pd47144381",
     "subcategoryId": "blood-bank-centrifuge",
-    "name": "GL12 Touch Screen Floor Standing Большой емкости с охлаждением Центрифуга",
+    "name": "GL12 Touch Screen Floor Standing Large Capacity с охлаждением Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 12000rpm",
@@ -328,11 +306,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Timer : 1~9h59min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 60",
-      "Temperature Range : -20~40℃",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature Range : -20~40℃"
     ],
-    "description": "GL12 Touch Screen Floor Standing Large Capaci",
+    "description": "GL12 Touch Screen Floor Standing Large Capacity с охлаждением Центрифуга...",
     "images": [
       "/images/products/GL12-Touch-Screen-Floor-Standing-Large-Capacity-Refrigerated-Centrifuge-pd47144381.png"
     ],
@@ -341,7 +317,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   {
     "id": "CDL7M-touch-screen-blood-bank-centrifuge-pd547090178",
     "subcategoryId": "blood-bank-centrifuge",
-    "name": "CDL7M touch screen для банков крови Центрифуга",
+    "name": "CDL7M touch screen blood bank Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 7000rpm",
@@ -350,20 +326,18 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 1~99h59min59s",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 65",
-      "Temperature : -20 ~ 40℃",
-      "Acc/Dec : 10 Kinds",
-      "Speed   Accuracy : ±20r/min"
+      "Temperature : -20 ~ 40℃"
     ],
-    "description": "CDL7M touch screen для банков крови Центрифуга CDL7M touch screen with special programs for blo",
+    "description": "CDL7M touch screen blood bank Центрифуга...",
     "images": [
-      "/images/products/CDL7M-touch-screen-blood-bank-centrifuge-pd547090178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "DL8M-Large-Capacity-Refrigerated-Centrifuge-pd716650588",
     "subcategoryId": "blood-bank-centrifuge",
-    "name": "DL8M Большой емкости с охлаждением Центрифуга",
+    "name": "DL8M Large Capacity с охлаждением Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 8000rpm",
@@ -372,11 +346,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 1~9h59min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 65",
-      "Temperature : -20~40℃",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature : -20~40℃"
     ],
-    "description": "DL8M Большой емкости с охлаждением Центрифуга DL8M Большой емкости с охлаждением centrifug",
+    "description": "DL8M Large Capacity с охлаждением Центрифуга...",
     "images": [
       "/images/products/DL8M-Large-Capacity-Refrigerated-Centrifuge-pd716650588.png"
     ],
@@ -385,7 +357,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   {
     "id": "TG18B-Table-Top-High-Speed-Centrifuge-pd565852848",
     "subcategoryId": "high-speed-centrifuge",
-    "name": "TG18B Настольная High Speed Центрифуга",
+    "name": "TG18B Table Top High Speed Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 18500rpm",
@@ -394,20 +366,18 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 55",
-      "Temperature : Ambient",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature : Ambient"
     ],
-    "description": "TG18B Настольная High Speed Центрифуга 1.Widely used for laboratory, chemistry and so on. 2.1",
+    "description": "TG18B Table Top High Speed Центрифуга...",
     "images": [
-      "/images/products/TG18B-Table-Top-High-Speed-Centrifuge-pd565852848.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "TG18D-Table-Top-High-And-Low-Speed-Universal-Centrifuge-pd551280258",
     "subcategoryId": "high-speed-centrifuge",
-    "name": "TG18D Настольная High And Low Speed Universal Центрифуга",
+    "name": "TG18D Table Top High And Low Speed Universal Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 18500rpm",
@@ -416,20 +386,18 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99h99min59sec",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 65",
-      "Acc/Dcc : 10 Kinds",
-      "Speed Accuracy : ±20r/min",
-      "Voltage(V/Hz) : AC 220V/110V  50HZ/60HZ"
+      "Acc/Dcc : 10 Kinds"
     ],
-    "description": "TG18D Настольная High And Low Speed Universal Центрифуга 1. Widely used for",
+    "description": "TG18D Table Top High And Low Speed Universal Центрифуга...",
     "images": [
-      "/images/products/TG18D-Table-Top-High-And-Low-Speed-Universal-Centrifuge-pd551280258.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "TG16E-Table-Top-Micro-High-Speed-Centrifuge-pd519380258",
     "subcategoryId": "high-speed-centrifuge",
-    "name": "TG16E Настольная Micro High Speed Центрифуга",
+    "name": "TG16E Table Top Micro High Speed Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 16000rpm",
@@ -438,11 +406,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99h59min59sec",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 65",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min",
-      "Voltage(V/Hz) : AC 220V/110V  50HZ/60HZ"
+      "Acc/Dec : 10 Kinds"
     ],
-    "description": "TG16E Настольная Micro High Speed Центрифуга 1. Brushless motor, no pollution, free-mai",
+    "description": "TG16E Table Top Micro High Speed Центрифуга...",
     "images": [
       "/images/products/TG16E-Table-Top-Micro-High-Speed-Centrifuge-pd519380258.png"
     ],
@@ -460,11 +426,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99min59s",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 55",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min",
-      "Voltage(V/Hz) : AC 220V/110V  50HZ/60HZ"
+      "Acc/Dec : 10 Kinds"
     ],
-    "description": "TGW16 Micro High Speed Центрифуга Features: 1. Brushless motor, no pollution, free-maintenane. 2",
+    "description": "TGW16 Micro High Speed Центрифуга...",
     "images": [
       "/images/products/TGW16-Micro-High-Speed-Centrifuge-pd739106088.png"
     ],
@@ -482,11 +446,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 65",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min",
-      "Voltage(V/Hz) : AC 220V/110V  50HZ/60HZ"
+      "Acc/Dec : 10 Kinds"
     ],
-    "description": "Micro High Speed Центрифуга TG16E Features: 1. Brushless motor, no pollution, free-maintenance.",
+    "description": "Micro High Speed Центрифуга TG16E...",
     "images": [
       "/images/products/Micro-High-Speed-Centrifuge-TG16E-pd520061998.png"
     ],
@@ -495,7 +457,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   {
     "id": "THR16E-Table-Top-High-And-Low-Speed-Refrigerated-Universal-Centrifuge-pd573219348",
     "subcategoryId": "high-speed-refrigerated-centrifuge",
-    "name": "THR16E Настольная High And Low Speed с охлаждением Universal Центрифуга",
+    "name": "THR16E Table Top High And Low Speed с охлаждением Universal Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 16000rpm",
@@ -504,20 +466,18 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99h59min59sec",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 60",
-      "Temperature : -20℃-40℃",
-      "Acc/Dcc : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature : -20℃-40℃"
     ],
-    "description": "THR16E Настольная High And Low Speed Refrigerate",
+    "description": "THR16E Table Top High And Low Speed с охлаждением Universal Центрифуга...",
     "images": [
-      "/images/products/THR16E-Table-Top-High-And-Low-Speed-Refrigerated-Universal-Centrifuge-pd573219348.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "TGL16E-LCD-Touch-Sreen-Version-Table-Top-High-Speed-Refrigerated-Centrifuge-pd582305548",
     "subcategoryId": "high-speed-refrigerated-centrifuge",
-    "name": "TGL16E LCD Touch Sreen Version Настольная High Speed с охлаждением Центрифуга",
+    "name": "TGL16E LCD Touch Sreen Version Table Top High Speed с охлаждением Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max Speed : 16000rpm : Max RCF : 19040×g",
@@ -526,11 +486,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Dimension(L×W×Hmm) : 480×480×275mm : Net Weight : 43KG",
       "Power supply : 220V, 50Hz/60Hz : Temperature Range : -20℃~40℃",
       "Temperature Accuracy : ±1℃ :  : ",
-      "Order No : Rotor : Max speed (rpm) : Max Volume(ml) : Max RCF (g)",
-      "16E-1 : Angle rotor : 14000 : 4×8PCR : 12070",
-      "16E-2 : Angle Rotor : 16000 : 12×1.5/2ml : 17940"
+      "Order No : Rotor : Max speed (rpm) : Max Volume(ml) : Max RCF (g)"
     ],
-    "description": "TGL16E LCD Touch Sreen Version Настольная",
+    "description": "TGL16E LCD Touch Sreen Version Table Top High Speed с охлаждением Центрифуга...",
     "images": [
       "/images/products/TGL16E-LCD-Touch-Sreen-Version-Table-Top-High-Speed-Refrigerated-Centrifuge-pd582305548.png"
     ],
@@ -539,7 +497,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   {
     "id": "TDL6F-Table-Top-Refrigerated-Centrifuge-pd585145358",
     "subcategoryId": "high-speed-refrigerated-centrifuge",
-    "name": "TDL6F Настольная с охлаждением Центрифуга",
+    "name": "TDL6F Table Top с охлаждением Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 6000r/min",
@@ -548,11 +506,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Timer : 0~99min59s",
       "Temperature Range : -20℃~40℃",
       "Speed Accuracy : ±10r/min",
-      "Noise : ≤56dBA",
-      "Voltage : 600W",
-      "Power : AC 220,  50Hz，3A"
+      "Noise : ≤56dBA"
     ],
-    "description": "TDL6F Настольная с охлаждением Центрифуга ■ Appearance is simple, elegant, and",
+    "description": "TDL6F Table Top с охлаждением Центрифуга...",
     "images": [
       "/images/products/TDL6F-Table-Top-Refrigerated-Centrifuge-pd585145358.png"
     ],
@@ -561,7 +517,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   {
     "id": "Large-Capacity-High-Speed-Refrigerated-Centrifuge-pd48084582",
     "subcategoryId": "high-speed-refrigerated-centrifuge",
-    "name": "Большой емкости High Speed с охлаждением Центрифуга",
+    "name": "Large Capacity High Speed с охлаждением Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 12000rpm",
@@ -570,13 +526,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Timer : 1~9h59min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 60",
-      "Temperature Range : -20~40℃",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature Range : -20~40℃"
     ],
-    "description": "Большой емкости High Speed с охлаждением Центрифуга Features 1. Widel",
+    "description": "Large Capacity High Speed с охлаждением Центрифуга...",
     "images": [
-      "/images/products/Large-Capacity-High-Speed-Refrigerated-Centrifuge-pd48084582.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -592,13 +546,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Timer : 1~9h59min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 65",
-      "Temperature Range : -20~40℃",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature Range : -20~40℃"
     ],
-    "description": "Floor Standing High Speed с охлаждением Центрифуга Features 1. Brush",
+    "description": "Floor Standing High Speed с охлаждением Центрифуга...",
     "images": [
-      "/images/products/Floor-Standing-High-Speed-Refrigerated-Centrifuge-pd43654582.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -614,11 +566,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 1~9h59min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 65",
-      "Temperature : -20~40℃",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature : -20~40℃"
     ],
-    "description": "CDL7M Lar",
+    "description": "CDL7M Largest Capacity с охлаждением Центрифуга...",
     "images": [
       "/images/products/CDL7M-Largest-Capacity-Refrigerated-Centrifuge-pd43477933.png"
     ],
@@ -636,11 +586,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 1~9h59min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 65",
-      "Temperature : -20~40℃",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature : -20~40℃"
     ],
-    "description": "GL10 High Speed с охлаждением Центрифуга Model: GL10 Brand: Yingtai Code: 8421",
+    "description": "GL10 High Speed с охлаждением Центрифуга...",
     "images": [
       "/images/products/GL10-High-Speed-Refrigerated-Centrifuge-pd46277933.png"
     ],
@@ -649,7 +597,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   {
     "id": "Large-Capacity-Refrigerated-Centrifuge-pd49495582",
     "subcategoryId": "large-capacity-refrigerated-centrifuge",
-    "name": "Большой емкости с охлаждением Центрифуга",
+    "name": "Large Capacity с охлаждением Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 6000rpm",
@@ -658,13 +606,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Timer : 1~9h59min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 60",
-      "Temperature Range : -20~40℃",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature Range : -20~40℃"
     ],
-    "description": "Большой емкости Re",
+    "description": "Large Capacity с охлаждением Центрифуга...",
     "images": [
-      "/images/products/Large-Capacity-Refrigerated-Centrifuge-pd49495582.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -680,13 +626,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Dimension:800x675x830mm : Net Weight:260KG",
       "Speed Accuracy:±20r/min : Package (W*D*H):920x800x1320mm",
       "Temperature range: : -20℃ ~ 40℃",
-      "Rotor No. : Rotor type : Max.Speed (rpm) : Max.Volume (ml) : Max.RCF (xg)",
-      "No33097 : Swing out rotor : 4,000 : 4x1000ml (round/square cup ) : 4,060",
-      "No30221 : Angle rotor : 6,000 : 4x300ml : 5,390"
+      "Rotor No. : Rotor type : Max.Speed (rpm) : Max.Volume (ml) : Max.RCF (xg)"
     ],
-    "description": "DDL6 4x1000ml Swing Ротор for 4x500ml Bl",
+    "description": "DDL6 4x1000ml Swing Ротор for 4x500ml Blood Bags с охлаждением Центрифуга...",
     "images": [
-      "/images/products/DDL6-4x1000ml-Swing-rotor-for-4x500ml-Blood-Bags-Refrigerated-Centrifuge-pd43507703.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -702,11 +646,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 55",
-      "Temperature : Normal",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature : Normal"
     ],
-    "description": "Portable Low Speed Центрифуга A",
+    "description": "Portable Low Speed Центрифуга...",
     "images": [
       "/images/products/Portable-Low-Speed-Centrifuge-pd549872998.png"
     ],
@@ -715,7 +657,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   {
     "id": "TD5I-Table-Top-Low-Speed-Centrifuge-pd594389358",
     "subcategoryId": "low-speed-centrifuge",
-    "name": "TD5I Настольная Low Speed Центрифуга",
+    "name": "TD5I Table Top Low Speed Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 5000r/min",
@@ -724,11 +666,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Timer : 0~99min59s",
       "Speed Accuracy : ±10r/min",
       "Noise : ≤60dBA",
-      "Voltage : 300W",
-      "Power : AC 220,  50Hz，2A",
-      "Dimension : 430*330*250mm"
+      "Voltage : 300W"
     ],
-    "description": "TD5I Настольная Low Speed",
+    "description": "TD5I Table Top Low Speed Центрифуга...",
     "images": [
       "/images/products/TD5I-Table-Top-Low-Speed-Centrifuge-pd594389358.png"
     ],
@@ -737,7 +677,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   {
     "id": "TD5H-Table-Top-Low-Speed-Centrifuge-pd567889358",
     "subcategoryId": "low-speed-centrifuge",
-    "name": "TD5H Настольная Low Speed Центрифуга",
+    "name": "TD5H Table Top Low Speed Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 5000r/min",
@@ -746,11 +686,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Timer : 0~99min59s",
       "Speed Accuracy : ±10r/min",
       "Noise : ≤58dBA",
-      "Voltage : 300W",
-      "Power : AC 220,  50Hz，2A",
-      "Dimension : 430*330*250mm"
+      "Voltage : 300W"
     ],
-    "description": "TD5H Настольная Low Speed",
+    "description": "TD5H Table Top Low Speed Центрифуга...",
     "images": [
       "/images/products/TD5H-Table-Top-Low-Speed-Centrifuge-pd567889358.png"
     ],
@@ -759,7 +697,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   {
     "id": "TD4B-Table-Top-Low-Speed-Centrifuge-pd585199358",
     "subcategoryId": "low-speed-centrifuge",
-    "name": "TD4B Настольная Low Speed Центрифуга",
+    "name": "TD4B Table Top Low Speed Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 4000r/min",
@@ -768,11 +706,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Timer : 0~99min59s",
       "Speed Accuracy : ±10r/min",
       "Noise : ≤56dBA",
-      "Voltage : 100W",
-      "Power : AC 110~220,  50Hz",
-      "Dimension : 430*330*250mm"
+      "Voltage : 100W"
     ],
-    "description": "TD4B Настольная Low Speed",
+    "description": "TD4B Table Top Low Speed Центрифуга...",
     "images": [
       "/images/products/TD4B-Table-Top-Low-Speed-Centrifuge-pd585199358.png"
     ],
@@ -790,20 +726,18 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 58",
-      "Temperature : Normal",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature : Normal"
     ],
-    "description": "TD5A Tabletop Low Speed Ce",
+    "description": "TD5A Tabletop Low Speed Центрифуга...",
     "images": [
-      "/images/products/TD5A-Tabletop-Low-Speed-Centrifuge-pd738470288.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "TD5E-Table-Top-Low-Speed-Centrifuge-pd543943948",
     "subcategoryId": "low-speed-centrifuge",
-    "name": "TD5E Настольная Low Speed Центрифуга",
+    "name": "TD5E Table Top Low Speed Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 5000rpm",
@@ -812,20 +746,18 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 58",
-      "Temperature : Normal",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature : Normal"
     ],
-    "description": "TD5E Настольная Low Speed",
+    "description": "TD5E Table Top Low Speed Центрифуга...",
     "images": [
-      "/images/products/TD5E-Table-Top-Low-Speed-Centrifuge-pd543943948.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "TD5-Table-Top-Low-Speed-Centrifuge-pd41197933",
     "subcategoryId": "low-speed-centrifuge",
-    "name": "TD5 Настольная Low Speed Центрифуга",
+    "name": "TD5 Table Top Low Speed Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 5000rpm",
@@ -834,11 +766,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 58",
-      "Temperature : Normal",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature : Normal"
     ],
-    "description": "TD5 Настольная Low Speed Ce",
+    "description": "TD5 Table Top Low Speed Центрифуга...",
     "images": [
       "/images/products/TD5-Table-Top-Low-Speed-Centrifuge-pd41197933.png"
     ],
@@ -847,7 +777,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   {
     "id": "TDL5-Table-Top-Low-Speed-Refrigerated-Centrifuge-pd539580258",
     "subcategoryId": "low-speed-refrigerated-centrifuge",
-    "name": "TDL5 Настольная Low Speed с охлаждением Центрифуга",
+    "name": "TDL5 Table Top Low Speed с охлаждением Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 5000rpm",
@@ -856,11 +786,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~9h59min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 58",
-      "Temperature : -20℃-40℃",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature : -20℃-40℃"
     ],
-    "description": "TDL5 Настольная Low Speed с охлаждением Центрифуга 1. с охлаждением cent",
+    "description": "TDL5 Table Top Low Speed с охлаждением Центрифуга...",
     "images": [
       "/images/products/TDL5-Table-Top-Low-Speed-Refrigerated-Centrifuge-pd539580258.png"
     ],
@@ -869,7 +797,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   {
     "id": "TDL5M-Large-Capacity-Refrigerated-Centrifuge-pd45155933",
     "subcategoryId": "low-speed-refrigerated-centrifuge",
-    "name": "TDL5M Большой емкости с охлаждением Центрифуга",
+    "name": "TDL5M Large Capacity с охлаждением Центрифуга",
     "specs": [
       "Quantity: : ",
       "Max. Speed : 5000rpm",
@@ -878,11 +806,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99h59min",
       "RPM/RCF Convert : Yes",
       "Noise (dB) : ≤ 65",
-      "Temperature : -20℃-40℃",
-      "Acc/Dec : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature : -20℃-40℃"
     ],
-    "description": "TDL5M Большой емкости с охлаждением Центрифуга TDL5M can hold 4pcs 450ml bl",
+    "description": "TDL5M Large Capacity с охлаждением Центрифуга...",
     "images": [
       "/images/products/TDL5M-Large-Capacity-Refrigerated-Centrifuge-pd45155933.png"
     ],
@@ -900,13 +826,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Dimension(LxWxHmm) : 570x600x340mm : Net Weight : 76Kg",
       "Power Supply : AC220V/110V 50HZ/60HZ : Temperature Range : -20℃~40℃",
       "Temperature Accuracy : ±1℃ : Certifications : CE, ISO & Calibration report is available.",
-      "Order No. : Rotor Type : Max. Speed(rpm) : Volume(ml) : Max.RCF(xg)",
-      "5E-1 : Swing rotor : 4000 : 4x180ml : 2580",
-      "5E-2 : Microplate rotor : 4000 : 2x3x96well : 2020"
+      "Order No. : Rotor Type : Max. Speed(rpm) : Volume(ml) : Max.RCF(xg)"
     ],
-    "description": "TDL5E Bench top low speed с охлаждением Центрифуга machine TD",
+    "description": "TDL5E Bench top low speed с охлаждением Центрифуга machine...",
     "images": [
-      "/images/products/TDL5E-Bench-top-low-speed-refrigerated-centrifuge-machine-pd47728303.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -922,13 +846,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Input power [W] : 45W",
       "control method : ST16 bit MCU/PWM/speed regulation;",
       "Display method : Black and white LCD",
-      "motor : DC24V/DC permanent magnet motor",
-      "Effective centrifuge time : 1-99min./1-59sec.",
-      "Speed [r/min.] : 500～12000rpm±5%"
+      "motor : DC24V/DC permanent magnet motor"
     ],
-    "description": "MiniL-12G Mini Micro Центрифуга 1.MiniL-12G Центрифуга is widely use",
+    "description": "MiniL-12G Mini Micro Центрифуга...",
     "images": [
-      "/images/products/MiniL-12G-Mini-Micro-Centrifuge-pd554457158.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -944,13 +866,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Input power [W] : 45W",
       "control method : ST16 bit MCU/PWM/speed regulation;",
       "Display method : Black and white LCD",
-      "motor : DC24V/DC permanent magnet motor",
-      "Effective centrifuge time : 1-99min./1-59sec.",
-      "Speed [r/min.] : 500～7000rpm±5%"
+      "motor : DC24V/DC permanent magnet motor"
     ],
-    "description": "MiniL-7G Mini Micro Центрифуга 1.MiniL-7G Центрифуга is widely used in",
+    "description": "MiniL-7G Mini Micro Центрифуга...",
     "images": [
-      "/images/products/MiniL-7G-Mini-Micro-Centrifuge-pd548457158.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -966,11 +886,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Motor/Drive Method : DC24V brushless DC variable frequency motor",
       "Display method : High brightness LCD screen",
       "Effective centrifugal time : 1-99min.1-59sec",
-      "speed : 300~3000±15rpm",
-      "Speed step increase : 10rpm",
-      "Maximum capacity : 2 *96 well PCR plates/ELISA plates"
+      "speed : 300~3000±15rpm"
     ],
-    "description": "MINI-3 Microplate Центрифуга The micro porous plate Центрифуга adopts in",
+    "description": "MINI-3 Microplate Центрифуга...",
     "images": [
       "/images/products/MINI-3-Microplate-Centrifuge-pd567742068.png"
     ],
@@ -988,13 +906,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Size (W x D x Hmm) : 390×280×140mm",
       "Voltage(V/Hz) : AC 220V/110V  50HZ/60HZ",
       "Incubation   Temperature : 37℃±0.1℃",
-      "Temperature Accuracy : <0.5℃",
-      "Rated   Power : 250W",
-      "Net Weight : 6.2KG"
+      "Temperature Accuracy : <0.5℃"
     ],
-    "description": "Gel Card Incubator Model: FYQ-100 Brand: Yingtai Download: Gel card Incubator.pdf Quantity: Inquire Add",
+    "description": "Gel Card Incubator...",
     "images": [
-      "/images/products/Gel-Card-Incubator-pd46162693.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1010,13 +926,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99min",
       "RPM/RCF   Convert : Yes",
       "Noise (dB) : ≤ 55",
-      "Temperature : Normal",
-      "Acc/Dcc : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature : Normal"
     ],
-    "description": "TD4 serofuge TD4 cell washer Центрифуга it is widely used to qualitative analysis of blood serum, plasma and urea in",
+    "description": "TD4 serofuge...",
     "images": [
-      "/images/products/TD4-serofuge-pd45927013.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1032,11 +946,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Time Range : 0~99min",
       "Rotor : Swing   Out Rotor",
       "Noise (dB) : ≤ 58",
-      "Temperature : Room   temperature:+10~80℃",
-      "Acc/Dcc : 10 Kinds",
-      "Speed Accuracy : ±20r/min"
+      "Temperature : Room   temperature:+10~80℃"
     ],
-    "description": "Oil Test Центрифуга Oil test Центрифуга， Heating oil test Центрифуга, special tube oil test Центрифуга Model: TD",
+    "description": "Oil Test Центрифуга...",
     "images": [
       "/images/products/Oil-Test-Centrifuge-pd49062693.png"
     ],
@@ -1054,19 +966,17 @@ export const SCRAPED_PRODUCTS: Product[] = [
       " :  :  : ",
       "Program : A & B two   programs : Record function : available",
       " :  :  : ",
-      "Power Supply : 220/110V 50/60Hz : Size: : 29*28*14cm",
-      " :  :  : ",
-      "Weight : 6.5kgs : Warranty : One year"
+      "Power Supply : 220/110V 50/60Hz : Size: : 29*28*14cm"
     ],
-    "description": "Plasma Gel Maker Model: PPP gel maker Brand: Yingtai Quantity: I",
+    "description": "Plasma Gel Maker...",
     "images": [
-      "/images/products/Plasma-Gel-Maker-pd46362693.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "2400ml-Centrifuge-Bottle-pd549011178",
-    "subcategoryId": "centrifugal-tubes-bottles",
+    "subcategoryId": "centrifugal-tubes---bottles",
     "name": "2400ml Центрифуга Bottle",
     "specs": [
       "Quantity: : ",
@@ -1076,15 +986,15 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Size(O.D×H,mm) : 177×115×185",
       "Max. RCF (×g) : 8000"
     ],
-    "description": "2400ml Центрифуга Bottle This product is made of translucent polypropylene copolymer material PPCO",
+    "description": "2400ml Центрифуга Bottle...",
     "images": [
-      "/images/products/2400ml-Centrifuge-Bottle-pd549011178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "1000ml-Centrifuge-Bottle-Low-Speed-pd599011178",
-    "subcategoryId": "centrifugal-tubes-bottles",
+    "subcategoryId": "centrifugal-tubes---bottles",
     "name": "1000ml Центрифуга Bottle (Low Speed)",
     "specs": [
       "Quantity: : ",
@@ -1094,15 +1004,15 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Size(O.D×H,mm) : 97×170",
       "Max. RCF (×g) : 7100"
     ],
-    "description": "1000ml Центрифуга Bottle (Low Speed) This product is made of translucent polypropylene",
+    "description": "1000ml Центрифуга Bottle (Low Speed)...",
     "images": [
-      "/images/products/1000ml-Centrifuge-Bottle-Low-Speed-pd599011178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "1000ml-Centrifuge-Bottle-High-Speed-pd550111178",
-    "subcategoryId": "centrifugal-tubes-bottles",
+    "subcategoryId": "centrifugal-tubes---bottles",
     "name": "1000ml Центрифуга Bottle (High Speed)",
     "specs": [
       "Quantity: : ",
@@ -1112,7 +1022,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Size(O.D×H,mm) : 97.5×195.3",
       "Max. RCF (×g) : 16000"
     ],
-    "description": "1000ml Центрифуга Bottle (High Speed) This product is made of translucent polypropylen",
+    "description": "1000ml Центрифуга Bottle (High Speed)...",
     "images": [
       "/images/products/1000ml-Centrifuge-Bottle-High-Speed-pd550111178.png"
     ],
@@ -1120,7 +1030,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   },
   {
     "id": "250ml-Centrifuge-Bottle-High-Speed-pd571111178",
-    "subcategoryId": "centrifugal-tubes-bottles",
+    "subcategoryId": "centrifugal-tubes---bottles",
     "name": "250ml Центрифуга Bottle (High Speed)",
     "specs": [
       "Quantity: : ",
@@ -1130,9 +1040,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Size(O.D×H,mm) : 61.5×124",
       "Max. RCF (×g) : 27500"
     ],
-    "description": "250ml Центрифуга Bottle (High Speed) This product is made of translucent polypropylene",
+    "description": "250ml Центрифуга Bottle (High Speed)...",
     "images": [
-      "/images/products/250ml-Centrifuge-Bottle-High-Speed-pd571111178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1148,15 +1058,15 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Size(O.D×H,mm) : 37.7×118",
       "Max. RCF (×g) : 6000"
     ],
-    "description": "Blood Bag Adatper Brand: Yingtai Quantity: Inquire",
+    "description": "Blood Bag Adatper...",
     "images": [
-      "/images/products/Blood-Bag-Adatper-pd508201178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "15ml-Conical-Tube-pd573111178",
-    "subcategoryId": "centrifugal-tubes-bottles",
+    "subcategoryId": "centrifugal-tubes---bottles",
     "name": "15ml Conical Tube",
     "specs": [
       "Quantity: : ",
@@ -1166,16 +1076,16 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Size(O.D×H,mm) : 17×121",
       "Max. RCF (×g) : 50000"
     ],
-    "description": "15ml Conical Tube This product is made of translucent polypropylene copolymer material PPCO with good visi",
+    "description": "15ml Conical Tube...",
     "images": [
-      "/images/products/15ml-Conical-Tube-pd573111178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "Laboratory-Large-Capacity-Freezer-Dryer-Lyophilizer-SF7009-SF9009-SF7012-SF9012-pd580120178",
     "subcategoryId": "vacuum-freezer-dryer-lyophilizer",
-    "name": "Laboratory Большой емкости Freezer Dryer/ Lyophilizer SF7009,SF9009,SF7012,SF9012",
+    "name": "Laboratory Large Capacity Freezer Dryer/ Lyophilizer SF7009,SF9009,SF7012,SF9012",
     "specs": [
       "Quantity: : ",
       "Item   No : SF7009 : SF9009 : SF7012 : SF9012",
@@ -1184,11 +1094,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Cold trap volume : 15L : 20L",
       "Freeze dried chamber : High permeability organic glass/multi manifold external valve/stainless steel chamber",
       "Sample shelf : ●φ260mm/485mm.Single layer area 0.055m²/0.185m².3-10 layers/optional ● Electric heating/manual capping/optional",
-      "Vacuum pump : Extreme vacuum 5*10*mbar with a pumping capacity of 8m³/h optional pump of various types",
-      "Oil mist filter : Standard configuration",
-      "Vacuum pump connection pipe : Single forming stainless steel flexible pipe DN16 ISO-KF L-1.2m"
+      "Vacuum pump : Extreme vacuum 5*10*mbar with a pumping capacity of 8m³/h optional pump of various types"
     ],
-    "description": "Products » Vacuum Freezer Dryer/ Lyophilizer » Lab Vacuum Freezer Dryer/ Lyophilizer » Laboratory Большой емкости Freezer Dryer/ Lyophilizer SF7009,SF9009,SF7012,SF9012",
+    "description": "Laboratory Large Capacity Freezer Dryer/ Lyophilizer SF7009,SF9009,SF7012,SF9012...",
     "images": [
       "/images/products/Laboratory-Large-Capacity-Freezer-Dryer-Lyophilizer-SF7009-SF9009-SF7012-SF9012-pd580120178.png"
     ],
@@ -1206,13 +1114,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Refrigeration\n\nsystem : · Danffos compressor\n\nCopper plate heat exchanger,the largest area to increase heat dissipation\n\n· Unique refrigeration technology,the temperature of the cold trap can be lowered from ambient temperature\n\nto below-80C°within 2 minutes.\n\n· Class A temperature sensor with high temperature accuracy and low error.\n\n· Multiple detection and alarm system,the refrigeration system pressure is too high or refrigeration failure cantimely alarm and take corresponding measures.",
       "Item No : ST7003 : ST7006 : ST9006",
       "Ice condenser capacity : 3kg : 6kg : 6kg",
-      "Ice condenser temperature : -70℃ : -70℃ : -90℃",
-      "Cold trap volume : 5L : 10L : 10L",
-      "Freeze dried chamber : Bell shape (standard configuration)/Multi manifold type/T-shaped frame type"
+      "Ice condenser temperature : -70℃ : -70℃ : -90℃"
     ],
-    "description": "Products » Vacuum Freezer Dryer/ Lyophilizer » Lab Vacuum Freezer Dryer/ Lyophilizer » Laboratory Conventional Freezer Dryer/ Lyophilizer ST7003,ST7006,ST9006",
+    "description": "Laboratory Conventional Freezer Dryer/ Lyophilizer ST7003,ST7006,ST9006...",
     "images": [
-      "/images/products/Laboratory-Conventional-Freezer-Dryer-Lyophilizer-ST7003-ST7006-ST9006-pd559120178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1228,13 +1134,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Shelf temperature : 70℃~+80℃ : 65℃~+70℃",
       "Ice condenser temperature : 70 /-90℃ : 70/-90℃ : -70℃/-90℃ : -70℃/-85℃",
       "Cold trap volume : 9L : 15L : 18L : 30L",
-      "Chamber type : single : double",
-      "Max number of shelves : 2+1 : 5+1 : 8+1 : 12+1",
-      "Shelf size : 275*400 mm : 275*400 mm : 365*465 mm : 365*465 mm"
+      "Chamber type : single : double"
     ],
-    "description": "Products » Vacuum Freezer Dryer/ Lyophilizer » Pilot Scale Lyophilizer » Pilot-scale Freeze Dryer/ Lyphilizer",
+    "description": "Pilot-scale Freeze Dryer/ Lyphilizer...",
     "images": [
-      "/images/products/Pilot-scale-Freeze-Dryer-Lyphilizer-pd596510178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1245,9 +1149,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Micro Центрифуга Ротор » 30x1.5/2ml Angle Ротор",
+    "description": "30x1.5/2ml Angle Ротор...",
     "images": [
-      "/images/products/30x1-5-2ml-Angle-Rotor-pd570800178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1258,9 +1162,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Micro Центрифуга Ротор » 48x1.5/2ml Angle Ротор",
+    "description": "48x1.5/2ml Angle Ротор...",
     "images": [
-      "/images/products/48x1-5-2ml-Angle-Rotor-pd534363178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1271,9 +1175,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Micro Центрифуга Ротор » 40×0.5ml Angle Ротор",
+    "description": "40×0.5ml Angle Ротор...",
     "images": [
-      "/images/products/40-0-5ml-Angle-Rotor-pd599143178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1284,9 +1188,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Micro Центрифуга Ротор » 12x1.5/2ml Angle Ротор",
+    "description": "12x1.5/2ml Angle Ротор...",
     "images": [
-      "/images/products/12x1-5-2ml-Angle-Rotor-pd548363178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1297,9 +1201,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Micro Центрифуга Ротор » 24x1.5/2ml Angle Ротор",
+    "description": "24x1.5/2ml Angle Ротор...",
     "images": [
-      "/images/products/24x1-5-2ml-Angle-Rotor-pd556363178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1310,9 +1214,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Micro Центрифуга Ротор » 30x1.5ml Angle Ротор",
+    "description": "30x1.5ml Angle Ротор...",
     "images": [
-      "/images/products/30x1-5ml-Angle-Rotor-pd525363178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1323,9 +1227,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Micro Центрифуга Ротор » 24x1.5ml Angle Ротор",
+    "description": "24x1.5ml Angle Ротор...",
     "images": [
-      "/images/products/24x1-5ml-Angle-Rotor-pd591852178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1336,9 +1240,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Special Ротор » 4x14x5ml Decapping Центрифуга Ротор",
+    "description": "4x14x5ml Decapping Центрифуга Ротор...",
     "images": [
-      "/images/products/4x14x5ml-Decapping-Centrifuge-Rotor-pd534541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1349,9 +1253,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Special Ротор » 4x24x10ml Decapping Центрифуга Ротор",
+    "description": "4x24x10ml Decapping Центрифуга Ротор...",
     "images": [
-      "/images/products/4x24x10ml-Decapping-Centrifuge-Rotor-pd554541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1367,11 +1271,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Converter : Quadruple Revolving converter",
       "Objective : Infinite field achromatic stress-free objective,5X,10X,20X,50X",
       "Condenser : N.A.1.25 Swinging Abbe condenser with variable light bar",
-      "Stage : Double Layer Mechanical Stage,Size1140X120mn,Moving Range :80x50mm",
-      "Focusing : Coaxial Coase &Fine adjustment,fine division 0.02mm",
-      "Light source : LED 5V lighting,DC1272A power adapter,adjustable brightness"
+      "Stage : Double Layer Mechanical Stage,Size1140X120mn,Moving Range :80x50mm"
     ],
-    "description": "XTL-20 Series Metallographic Microscope XTL-20 series metallographic microscopes are equipped with in",
+    "description": "XTL-20 Series Metallographic Microscope...",
     "images": [
       "/images/products/XTL-20-Series-Metallographic-Microscope-pd522660178.png"
     ],
@@ -1389,13 +1291,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Eyepiece : WF10X22mm : ● : ● : ● : ●",
       "Objective : zoom objective 0.65X---6.5X : ● : ● : ● : ●",
       "Zoom Rate : 1:10 : ● : ● : ● : ●",
-      "Total Amplific- ation Rate : the standard configuration is 6.5X-65X : ● : ● : ● : ●",
-      "Auxiliary Lens : 0.3X,0.5X,0.7X,1X,1.5X,2X For Option : O : O : O : O",
-      "Working\n\nDistance : 110mm : ● : ● : ● : ●"
+      "Total Amplific- ation Rate : the standard configuration is 6.5X-65X : ● : ● : ● : ●"
     ],
-    "description": "XTL-65 Series Zoom Stereo Microscope Model: XTL-65 Brand: Yingtai Quantity: Inquire",
+    "description": "XTL-65 Series Zoom Stereo Microscope...",
     "images": [
-      "/images/products/XTL-65-Series-Zoom-Stereo-Microscope-pd509160178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1411,13 +1311,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Eyepiece : WF10X22mm : ● : ● : ● : ● : ● : ●",
       "Objective : zoom objective 0.7X---5X : ● : ● : ● : ● : ● : ●",
       "Zoom     Rate : 0.1:07.1 : ● : ● : ● : ● : ● : ●",
-      "Total Amplific- ation   Rate : the standard configuration is 7X-50X : ● : ● : ● : ● : ● : ●",
-      "Auxiliary Lens : 0.5X,0.7X,1X,1.5X,2X For Option : O : O : O : O : O : O",
-      "Working\n\nDistance : 100mm : ● : ● : ● : ● : ● : ●"
+      "Total Amplific- ation   Rate : the standard configuration is 7X-50X : ● : ● : ● : ● : ● : ●"
     ],
-    "description": "XTL Series Zoom Stereo Microscope Model: XTL Brand: Yingtai Quantity: Inquire",
+    "description": "XTL Series Zoom Stereo Microscope...",
     "images": [
-      "/images/products/XTL-Series-Zoom-Stereo-Microscope-pd572260178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1433,13 +1331,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Display : 8 inch color monitor,resolution 640*480,OSD menu,with cross-line function : ●",
       "Digital Camera : 1/3 Sensor chip,80OTVL(PAL)OSD menu : O",
       "Output Interface : HDMI,VGA Interface : ●",
-      "Magnification : 12.6-81X(customized magnification is available according to customers'need) : O",
-      "Accessories : DC 12V 2A power supply,USB cable,CD-ROM : ●",
-      "Model : MZ45D"
+      "Magnification : 12.6-81X(customized magnification is available according to customers'need) : O"
     ],
-    "description": "MZ45 Single Cylinder Series Zoom Lens Model: MZ45 Brand: Yingtai Quantity: Inquire",
+    "description": "MZ45 Single Cylinder Series Zoom Lens...",
     "images": [
-      "/images/products/MZ45-Single-Cylinder-Series-Zoom-Lens-pd567460178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1455,13 +1351,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "TL24P : Three-eye viewing head, equipped with 10.1 inch integrated flat panel display",
       "Eyepiece : Wide-angle eyepiece WF10X,field of view 18mm,optional WF16X,WF25X",
       "Converter : Quadruple Revolving Converter",
-      "0bjective : 195mm achromatic objective,4X,10X,40X,100X(oil)",
-      "Condenser : ABBE N.A.1.25Condenser with Iris Diaphragm &Filter",
-      "Stage : Double Layer Mechanical Stage,Size110mmx120mm,Moving Range :70mmx30mm"
+      "0bjective : 195mm achromatic objective,4X,10X,40X,100X(oil)"
     ],
-    "description": "TL24 series biological microscope TL 24 series biological microscope is equipped with 195 achromatic object",
+    "description": "TL24 series biological microscope...",
     "images": [
-      "/images/products/TL24-series-biological-microscope-pd554718178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1477,13 +1371,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "TL36P : Three-eye viewing head, equipped with 10.1 inch integrated flat panel display",
       "Eyepiece : Wide-angle eyepiece WF10X,field of view 22mm,optional WF16X,WF25X",
       "Converter : Quadruple Revolving converter",
-      "0bjective : Flat field achromatic objective at infinite distance,4X,10X,40X,100X(oil)",
-      "Condenser : ABBE N.A.1.25Condenser with Iris Diaphragm &Filter",
-      "Stage : Double Layer Mechanical Stage,  Size1190X140mm,              Moving Range : 60mmx90mm"
+      "0bjective : Flat field achromatic objective at infinite distance,4X,10X,40X,100X(oil)"
     ],
-    "description": "TL36 Biological Microscope TL 36 series biological microscopes are equipped with infinite distance flat field achr",
+    "description": "TL36 Biological Microscope...",
     "images": [
-      "/images/products/TL36-Biological-Microscope-pd564228178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1499,13 +1391,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Objective : 0.7X-5X Zoom Range : ●",
       "Zoom Ratio : 01:07.1 : ●",
       "Auxiliary Lens : 0.5X,0.7X,2X  For option : ◯",
-      "Input : 100-240V : ●",
-      "Output : 12V/2A : ●",
-      "Working Distance : 100mm : ●"
+      "Input : 100-240V : ●"
     ],
-    "description": "DM750 Video Microscope Microscope same as Центрифуга, which it is basic instrument in laboratory, Yingtai instrument a",
+    "description": "DM750 Video Microscope...",
     "images": [
-      "/images/products/DM750-Video-Microscope-pd563221278.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1521,11 +1411,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Sterilization Chamber Dimensions (Diameter × Height) mm : φ400×530 : φ400×730 : φ400×920",
       "Rated Power : 2800W : 3400W : 4500W",
       "Rated Voltage : 220V±10%50Hz",
-      "Temperature Display Accuracy : 0.1℃",
-      "Operating Environment : 5℃~40℃、Relative Humidity10%～85%",
-      "Sterilization Chamber Material : SUS304Stainless Steel"
+      "Temperature Display Accuracy : 0.1℃"
     ],
-    "description": "65L/ 90L/ 110L High-pressure Steam Autoclave Features and functions: 1. Large-diameter sterilizat",
+    "description": "65L/ 90L/ 110L High-pressure Steam Autoclave...",
     "images": [
       "/images/products/65L-90L-110L-High-pressure-Steam-Autoclave-pd587832168.png"
     ],
@@ -1533,7 +1421,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   },
   {
     "id": "Yingtai-Iseal-100-Tube-Sealer-pd518505068",
-    "subcategoryId": "tube-sealer",
+    "subcategoryId": "centrifugal-tubes---bottles",
     "name": "Yingtai Iseal-100 Tube Sealer",
     "specs": [
       "Quantity: : ",
@@ -1544,7 +1432,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Weight: : 5.5kg : Fuse: : 3A/250VAC 5*20mm",
       "Operating Temperature: : 0~40℃ : Storage Temperature: : -20~70℃"
     ],
-    "description": "Yingtai Iseal-100 Tube Sealer A device that uses the principle of high-frequency oscillation to generate heat",
+    "description": "Yingtai Iseal-100 Tube Sealer...",
     "images": [
       "/images/products/Yingtai-Iseal-100-Tube-Sealer-pd518505068.png"
     ],
@@ -1552,7 +1440,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   },
   {
     "id": "Tube-sealer-pd528244278",
-    "subcategoryId": "tube-sealer",
+    "subcategoryId": "centrifugal-tubes---bottles",
     "name": "Tube sealer",
     "specs": [
       "Quantity: : ",
@@ -1562,13 +1450,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Diameter of tube : φ2-6mm(Tube thickness≤1.5mm)",
       "Powe supply : 220V 0.7A",
       "Consumption : 150W",
-      "External Size : 310*190*150mm",
-      "Package Size : 405*290*240mm",
-      "Net/Gross Weight : 6/7kgs"
+      "External Size : 310*190*150mm"
     ],
-    "description": "Tube sealer The blood bag tube sealer is a compact equipment to seal the blood bags, infusion bags, urine bags by high frequency",
+    "description": "Tube sealer...",
     "images": [
-      "/images/products/Tube-sealer-pd528244278.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1584,11 +1470,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Max.Capacity : 6x100ml",
       "Timer : 0~99h59min",
       "Vacuum control range : 1~1000mbar",
-      "Main unit withstands vacuum levels : 1mbar",
-      "Noise : ≤55dBA : ≤65dBA",
-      "Voltage : 0.7kw : 1.3kw"
+      "Main unit withstands vacuum levels : 1mbar"
     ],
-    "description": "SD-25/SD-25C Vacuum Centrifugal Concentrator Key features： 1. High-definiti",
+    "description": "SD-25/SD-25C Vacuum Centrifugal Concentrator...",
     "images": [
       "/images/products/SD-25-SD-25C-Vacuum-Centrifugal-Concentrator-pd525492168.png"
     ],
@@ -1606,11 +1490,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Max.Capacity : 12x100ml",
       "Timer : 0~99h59min",
       "Vacuum control range : 1~1000mbar",
-      "Main unit withstands vacuum levels : 1mbar",
-      "Noise : ≤55dBA : ≤65dBA",
-      "Voltage : 0.7kw : 1.3kw"
+      "Main unit withstands vacuum levels : 1mbar"
     ],
-    "description": "SD-33/SD-33C Vacuum Centrifugal Concentrator Key features： 1. High-definiti",
+    "description": "SD-33/SD-33C Vacuum Centrifugal Concentrator...",
     "images": [
       "/images/products/SD-33-SD-33C-Vacuum-Centrifugal-Concentrator-pd588126158.png"
     ],
@@ -1628,11 +1510,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Max.Capacity : 12x100ml",
       "Timer : 0~99h59min",
       "Vacuum control range : 0.1~1000mbar",
-      "Main unit withstands vacuum levels : 0.01mbar",
-      "Noise : ≤58dBA : ≤68dBA",
-      "Voltage : 0.7kw : 0.9kw"
+      "Main unit withstands vacuum levels : 0.01mbar"
     ],
-    "description": "SD-33/SD-33C Vacuum Centrifugal Concentrator With Cold Trap",
+    "description": "SD-33/SD-33C Vacuum Centrifugal Concentrator With Cold Trap...",
     "images": [
       "/images/products/SD-33-SD-33C-Vacuum-Centrifugal-Concentrator-With-Cold-Trap-pd565616458.png"
     ],
@@ -1650,11 +1530,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Max.Capacity : 6x100ml",
       "Timer : 0~99h59min",
       "Vacuum control range : 0.1~1000mbar",
-      "Main unit withstands vacuum levels : 0.01mbar",
-      "Noise : ≤55dBA : ≤65dBA",
-      "Voltage : 0.7kw : 1.3kw"
+      "Main unit withstands vacuum levels : 0.01mbar"
     ],
-    "description": "SD-25/SD-25C Vacuum Centrifugal Concentrator With Cold Trap",
+    "description": "SD-25/SD-25C Vacuum Centrifugal Concentrator With Cold Trap...",
     "images": [
       "/images/products/SD-25-SD-25C-Vacuum-Centrifugal-Concentrator-With-Cold-Trap-pd585236458.png"
     ],
@@ -1662,7 +1540,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
   },
   {
     "id": "DD5-Low-Speed-5000rpm-Swing-rotor-4x800ml-lab-Centrifuge-Adapters-for-5-10-15-50ml-tubes-pd45339403",
-    "subcategoryId": "floor-standing-centrifuge",
+    "subcategoryId": "centrifugal-tubes---bottles",
     "name": "DD5 Low Speed 5000rpm Swing Ротор 4x800ml lab Центрифуга Adapters for 5/10/15/50ml tubes",
     "specs": [
       "Quantity: : ",
@@ -1672,13 +1550,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Timer : 0~99mins",
       "RPM/RCF Convert : Yes",
       "Noise(DB) : ≤58",
-      "Acc/Dec : 10 Rates",
-      "Speed Accuracy : ±20rpm",
-      "Voltage(V/HZ) : AC 220V/110V 50HZ/60HZ"
+      "Acc/Dec : 10 Rates"
     ],
-    "description": "Products » Низкоскоростная Центрифуга » Floor-standing Центрифуга » DD5 Low Speed 5000rpm Swing Ротор 4x800ml lab Центрифуга Adapters for 5/10/15/50ml tubes",
+    "description": "DD5 Low Speed 5000rpm Swing Ротор 4x800ml lab Центрифуга Adapters for 5/10/15/50ml tubes...",
     "images": [
-      "/images/products/DD5-Low-Speed-5000rpm-Swing-rotor-4x800ml-lab-Centrifuge-Adapters-for-5-10-15-50ml-tubes-pd45339403.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1694,13 +1570,11 @@ export const SCRAPED_PRODUCTS: Product[] = [
       "Dimension:800×645×830mm : Net Weight: 170KG",
       "Speed Accuracy: ±20r/min : Package(W*D*H): 920×800×1320mm",
       "Temperature range: : Inapplicable",
-      "Order No. : Rotor type : Max.Speed (rpm) : Max.Volume (ml) : Max.RCF (xg)",
-      "No33097 : Swing out rotor : 4,000 : 4x1000ml (round/square cup ) : 4,060",
-      "No30221 : Angle rotor : 6,000 : 4x300ml : 5,390"
+      "Order No. : Rotor type : Max.Speed (rpm) : Max.Volume (ml) : Max.RCF (xg)"
     ],
-    "description": "Products » Низкоскоростная Центрифуга » Floor-standing Центрифуга » DD6 Floor standing 6000rpm 4x1000ml 6x500ml 6x300ml angle Ротор Laboratory Центрифуга Machine",
+    "description": "DD6 Floor standing 6000rpm 4x1000ml 6x500ml 6x300ml angle Ротор Laboratory Центрифуга Machine...",
     "images": [
-      "/images/products/DD6-Floor-standing-6000rpm-4x1000ml-6x500ml-6x300ml-angle-rotor-Laboratory-Centrifuge-Machine-pd43156703.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1711,7 +1585,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Floor-Standing Центрифуга Ротор » 6x1000ml Angle Ротор",
+    "description": "6x1000ml Angle Ротор...",
     "images": [
       "/images/products/6x1000ml-Angle-Rotor-pd507752178.png"
     ],
@@ -1724,9 +1598,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Floor-Standing Центрифуга Ротор » 4x1000ml Angle Ротор",
+    "description": "4x1000ml Angle Ротор...",
     "images": [
-      "/images/products/4x1000ml-Angle-Rotor-pd537752178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1737,9 +1611,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Floor-Standing Центрифуга Ротор » 6x500ml Angle Ротор",
+    "description": "6x500ml Angle Ротор...",
     "images": [
-      "/images/products/6x500ml-Angle-Rotor-pd588752178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1750,9 +1624,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Floor-Standing Центрифуга Ротор » 4x500ml Angle Ротор",
+    "description": "4x500ml Angle Ротор...",
     "images": [
-      "/images/products/4x500ml-Angle-Rotor-pd511852178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1763,7 +1637,7 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Floor-Standing Центрифуга Ротор » 4x300ml Angle Ротор",
+    "description": "4x300ml Angle Ротор...",
     "images": [
       "/images/products/4x300ml-Angle-Rotor-pd531852178.png"
     ],
@@ -1776,9 +1650,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Floor-Standing Центрифуга Ротор » 6x250ml Angle Ротор",
+    "description": "6x250ml Angle Ротор...",
     "images": [
-      "/images/products/6x250ml-Angle-Rotor-pd541852178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1789,9 +1663,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Gel card Центрифуга Ротор » TXK4 24Cards Ротор",
+    "description": "TXK4 24Cards Ротор...",
     "images": [
-      "/images/products/TXK4-24Cards-Rotor-pd541891178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1802,9 +1676,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Gel card Центрифуга Ротор » TXK4 12Cards Ротор",
+    "description": "TXK4 12Cards Ротор...",
     "images": [
-      "/images/products/TXK4-12Cards-Rotor-pd591891178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1815,9 +1689,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Low Speed Центрифуга Ротор » 24×10ml Angle Ротор",
+    "description": "24×10ml Angle Ротор...",
     "images": [
-      "/images/products/24-10ml-Angle-Rotor-pd550552178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1828,9 +1702,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Low Speed Центрифуга Ротор » 12x20ml Angle Ротор",
+    "description": "12x20ml Angle Ротор...",
     "images": [
-      "/images/products/12x20ml-Angle-Rotor-pd529652178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1841,9 +1715,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Low Speed Центрифуга Ротор » 30×7ml Angle Ротор",
+    "description": "30×7ml Angle Ротор...",
     "images": [
-      "/images/products/30-7ml-Angle-Rotor-pd510552178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1854,9 +1728,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Low Speed Центрифуга Ротор » 16x10/15ml Angle Ротор",
+    "description": "16x10/15ml Angle Ротор...",
     "images": [
-      "/images/products/16x10-15ml-Angle-Rotor-pd512652178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1867,9 +1741,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Low Speed Центрифуга Ротор » 8x10/15ml Angle Ротор",
+    "description": "8x10/15ml Angle Ротор...",
     "images": [
-      "/images/products/8x10-15ml-Angle-Rotor-pd578652178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1880,9 +1754,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Low Speed Центрифуга Ротор » 12×20ml Angle Ротор",
+    "description": "12×20ml Angle Ротор...",
     "images": [
-      "/images/products/12-20ml-Angle-Rotor-pd560552178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1893,9 +1767,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Low Speed Центрифуга Ротор » 12×15ml Angle Ротор（Plastic）",
+    "description": "12×15ml Angle Ротор（Plastic）...",
     "images": [
-      "/images/products/12-15ml-Angle-Rotor-Plastic-pd511552178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1906,9 +1780,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Low Speed Центрифуга Ротор » 12×15ml Angle Ротор",
+    "description": "12×15ml Angle Ротор...",
     "images": [
-      "/images/products/12-15ml-Angle-Rotor-pd551552178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1919,9 +1793,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Low Speed Центрифуга Ротор » 12×7ml Angle Ротор",
+    "description": "12×7ml Angle Ротор...",
     "images": [
-      "/images/products/12-7ml-Angle-Rotor-pd532552178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1932,9 +1806,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Micro Центрифуга Ротор » 24 Pieces Capillary Vessel Ротор",
+    "description": "24 Pieces Capillary Vessel Ротор...",
     "images": [
-      "/images/products/24-Pieces-Capillary-Vessel-Rotor-pd508052178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1945,9 +1819,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Micro Центрифуга Ротор » 24×1.5/2ml Angle Ротор",
+    "description": "24×1.5/2ml Angle Ротор...",
     "images": [
-      "/images/products/24-1-5-2ml-Angle-rotor-pd590342178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1958,9 +1832,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Microplate Ротор » 4×4×96well Microplate Box Type Ротор",
+    "description": "4×4×96well Microplate Box Type Ротор...",
     "images": [
-      "/images/products/4-4-96well-Microplate-Box-Type-Rotor-pd589441178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1971,9 +1845,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Microplate Ротор » 4×4×96well Microplate Frame Type Ротор",
+    "description": "4×4×96well Microplate Frame Type Ротор...",
     "images": [
-      "/images/products/4-4-96well-Microplate-Frame-Type-Rotor-pd530541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1984,9 +1858,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Microplate Ротор » 2×2×96well Microplate Box Type Ротор",
+    "description": "2×2×96well Microplate Box Type Ротор...",
     "images": [
-      "/images/products/2-2-96well-Microplate-Box-Type-Rotor-pd570541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -1997,9 +1871,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Microplate Ротор » 2×2×96well Microplate Frame Type Ротор",
+    "description": "2×2×96well Microplate Frame Type Ротор...",
     "images": [
-      "/images/products/2-2-96well-Microplate-Frame-Type-Rotor-pd580541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2010,9 +1884,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Microplate Ротор » 2×1×96well Microplate Frame Type Ротор",
+    "description": "2×1×96well Microplate Frame Type Ротор...",
     "images": [
-      "/images/products/2-1-96well-Microplate-Frame-Type-Rotor-pd501541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2023,9 +1897,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Microplate Ротор » 2×1×96well Microplate Box Type Ротор",
+    "description": "2×1×96well Microplate Box Type Ротор...",
     "images": [
-      "/images/products/2-1-96well-Microplate-Box-Type-Rotor-pd521541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2036,9 +1910,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Microplate Ротор » 4x4x96well Microplate Ротор",
+    "description": "4x4x96well Microplate Ротор...",
     "images": [
-      "/images/products/4x4x96well-Microplate-Rotor-pd582541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2049,9 +1923,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Microplate Ротор » 2x2x96well Microplate Ротор",
+    "description": "2x2x96well Microplate Ротор...",
     "images": [
-      "/images/products/2x2x96well-Microplate-Rotor-pd533541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2062,9 +1936,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Microplate Ротор » 2x3x48well Microplate Ротор",
+    "description": "2x3x48well Microplate Ротор...",
     "images": [
-      "/images/products/2x3x48well-Microplate-Rotor-pd573541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2075,9 +1949,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » PRP Центрифуга Ротор » 12x10ml PRP Центрифуга Ротор",
+    "description": "12x10ml PRP Центрифуга Ротор...",
     "images": [
-      "/images/products/12x10ml-PRP-Centrifuge-Rotor-pd532441178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2088,9 +1962,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » PRP Центрифуга Ротор » 8x10ml PRP Центрифуга Ротор",
+    "description": "8x10ml PRP Центрифуга Ротор...",
     "images": [
-      "/images/products/8x10ml-PRP-Centrifuge-Rotor-pd552441178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2101,9 +1975,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » PRP Центрифуга Ротор » 6x10ml PRP Центрифуга Ротор",
+    "description": "6x10ml PRP Центрифуга Ротор...",
     "images": [
-      "/images/products/6x10ml-PRP-Centrifuge-Rotor-pd592441178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2114,9 +1988,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » PRP Центрифуга Ротор » 4x50ml PRP Центрифуга Ротор",
+    "description": "4x50ml PRP Центрифуга Ротор...",
     "images": [
-      "/images/products/4x50ml-PRP-Centrifuge-Rotor-pd543441178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2127,9 +2001,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » PRP Центрифуга Ротор » 4x25ml PRP Swing Ротор",
+    "description": "4x25ml PRP Swing Ротор...",
     "images": [
-      "/images/products/4x25ml-PRP-Swing-Rotor-pd554441178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2140,9 +2014,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » PRP Центрифуга Ротор » 4x15ml PRP Swing Ротор",
+    "description": "4x15ml PRP Swing Ротор...",
     "images": [
-      "/images/products/4x15ml-PRP-Swing-Rotor-pd584441178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2153,9 +2027,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » PRP Центрифуга Ротор » 4x30ml PRP Swing Ротор",
+    "description": "4x30ml PRP Swing Ротор...",
     "images": [
-      "/images/products/4x30ml-PRP-Swing-Rotor-pd565441178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2166,9 +2040,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » PRP Центрифуга Ротор » 4x50ml PRP Swing Ротор",
+    "description": "4x50ml PRP Swing Ротор...",
     "images": [
-      "/images/products/4x50ml-PRP-Swing-Rotor-pd556441178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2179,9 +2053,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » PRP Центрифуга Ротор » 4x25/20ml PRP Swing Ротор",
+    "description": "4x25/20ml PRP Swing Ротор...",
     "images": [
-      "/images/products/4x25-20ml-PRP-Swing-Rotor-pd596441178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2192,9 +2066,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Special Ротор » 4x4x10ml Defoaming Центрифуга Ротор",
+    "description": "4x4x10ml Defoaming Центрифуга Ротор...",
     "images": [
-      "/images/products/4x4x10ml-Defoaming-Centrifuge-Rotor-pd594541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2205,48 +2079,48 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Special Ротор » 16x15CC Defoaming Центрифуга Ротор",
+    "description": "16x15CC Defoaming Центрифуга Ротор...",
     "images": [
-      "/images/products/16x15CC-Defoaming-Centrifuge-Rotor-pd565541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "12-Tubes-Milk-Fat-Testing-Centrifuge-Rotor-pd595541178",
-    "subcategoryId": "special-rotor",
+    "subcategoryId": "centrifugal-tubes---bottles",
     "name": "12 Tubes Milk Fat Testing Центрифуга Ротор",
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Special Ротор » 12 Tubes Milk Fat Testing Центрифуга Ротор",
+    "description": "12 Tubes Milk Fat Testing Центрифуга Ротор...",
     "images": [
-      "/images/products/12-Tubes-Milk-Fat-Testing-Centrifuge-Rotor-pd595541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "8-Tubes-Milk-Fat-Testing-Centrifuge-Rotor-pd526541178",
-    "subcategoryId": "special-rotor",
+    "subcategoryId": "centrifugal-tubes---bottles",
     "name": "8 Tubes Milk Fat Testing Центрифуга Ротор",
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Special Ротор » 8 Tubes Milk Fat Testing Центрифуга Ротор",
+    "description": "8 Tubes Milk Fat Testing Центрифуга Ротор...",
     "images": [
-      "/images/products/8-Tubes-Milk-Fat-Testing-Centrifuge-Rotor-pd526541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "16-Tubes-Milk-Fat-Testing-Centrifuge-Rotor-pd546541178",
-    "subcategoryId": "special-rotor",
+    "subcategoryId": "centrifugal-tubes---bottles",
     "name": "16 Tubes Milk Fat Testing Центрифуга Ротор",
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Special Ротор » 16 Tubes Milk Fat Testing Центрифуга Ротор",
+    "description": "16 Tubes Milk Fat Testing Центрифуга Ротор...",
     "images": [
-      "/images/products/16-Tubes-Milk-Fat-Testing-Centrifuge-Rotor-pd546541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2257,9 +2131,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Buckets Ротор » 4x12x5ml Swing Buckets Ротор",
+    "description": "4x12x5ml Swing Buckets Ротор...",
     "images": [
-      "/images/products/4x12x5ml-Swing-Buckets-Rotor-pd507541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2270,9 +2144,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Buckets Ротор » 2x4x50ml Swing Buckets Ротор",
+    "description": "2x4x50ml Swing Buckets Ротор...",
     "images": [
-      "/images/products/2x4x50ml-Swing-Buckets-Rotor-pd517541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2283,35 +2157,35 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Buckets Ротор » 4x4x10ml Swing Buckets Ротор",
+    "description": "4x4x10ml Swing Buckets Ротор...",
     "images": [
-      "/images/products/4x4x10ml-Swing-Buckets-Rotor-pd527541178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "8-Pieces-Cyto-Swing-Rotor-pd583361178",
-    "subcategoryId": "swing-buckets-rotor",
+    "subcategoryId": "cyto-smear-liquid-centrifuge",
     "name": "8 Pieces Cyto Swing Ротор",
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Buckets Ротор » 8 Pieces Cyto Swing Ротор",
+    "description": "8 Pieces Cyto Swing Ротор...",
     "images": [
-      "/images/products/8-Pieces-Cyto-Swing-Rotor-pd583361178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
   {
     "id": "8-Pieces-Double-Layer-Cyto-Swing-Rotor-pd524361178",
-    "subcategoryId": "swing-buckets-rotor",
+    "subcategoryId": "cyto-smear-liquid-centrifuge",
     "name": "8 Pieces Double Layer Cyto Swing Ротор",
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Buckets Ротор » 8 Pieces Double Layer Cyto Swing Ротор",
+    "description": "8 Pieces Double Layer Cyto Swing Ротор...",
     "images": [
-      "/images/products/8-Pieces-Double-Layer-Cyto-Swing-Rotor-pd524361178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2322,9 +2196,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Buckets Ротор » 4x100ml Swing Buckets Ротор",
+    "description": "4x100ml Swing Buckets Ротор...",
     "images": [
-      "/images/products/4x100ml-Swing-Buckets-Rotor-pd528361178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2335,9 +2209,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Buckets Ротор » 4x10x7ml Swing Buckets Ротор",
+    "description": "4x10x7ml Swing Buckets Ротор...",
     "images": [
-      "/images/products/4x10x7ml-Swing-Buckets-Rotor-pd578361178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2348,9 +2222,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Buckets Ротор » 228×7ml Swing Buckets Ротор",
+    "description": "228×7ml Swing Buckets Ротор...",
     "images": [
-      "/images/products/228-7ml-Swing-Buckets-Rotor-pd541461178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2361,9 +2235,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Buckets Ротор » 160×7ml Swing Buckets Ротор",
+    "description": "160×7ml Swing Buckets Ротор...",
     "images": [
-      "/images/products/160-7ml-Swing-Buckets-Rotor-pd503761178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2374,9 +2248,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Ротор » 4×300ml Swing Ротор",
+    "description": "4×300ml Swing Ротор...",
     "images": [
-      "/images/products/4-300ml-Swing-Rotor-pd591402178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2387,9 +2261,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Ротор » 4x300ml Swing Ротор",
+    "description": "4x300ml Swing Ротор...",
     "images": [
-      "/images/products/4x300ml-Swing-Rotor-pd516891178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2400,9 +2274,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Ротор » 4x600ml Swing Ротор",
+    "description": "4x600ml Swing Ротор...",
     "images": [
-      "/images/products/4x600ml-Swing-Rotor-pd537891178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2413,9 +2287,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Ротор » 4x500ml Swing Ротор",
+    "description": "4x500ml Swing Ротор...",
     "images": [
-      "/images/products/4x500ml-Swing-Rotor-pd505202178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2426,9 +2300,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Ротор » 4×800ml Swing Ротор",
+    "description": "4×800ml Swing Ротор...",
     "images": [
-      "/images/products/4-800ml-Swing-Rotor-pd506302178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2439,9 +2313,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Ротор » 4×7×50ml Swing Ротор",
+    "description": "4×7×50ml Swing Ротор...",
     "images": [
-      "/images/products/4-7-50ml-Swing-Rotor-pd507712178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2452,9 +2326,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Ротор » 4x250ml Swing Ротор",
+    "description": "4x250ml Swing Ротор...",
     "images": [
-      "/images/products/4x250ml-Swing-Rotor-pd531812178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2465,9 +2339,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Ротор » 4x800ml Swing Ротор",
+    "description": "4x800ml Swing Ротор...",
     "images": [
-      "/images/products/4x800ml-Swing-Rotor-pd543812178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2478,9 +2352,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Swing Ротор » 4x13x10ml Swing Ротор",
+    "description": "4x13x10ml Swing Ротор...",
     "images": [
-      "/images/products/4x13x10ml-Swing-Rotor-pd540912178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2491,9 +2365,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Настольная Центрифуга Ротор » 8×85ml Angle Ротор",
+    "description": "8×85ml Angle Ротор...",
     "images": [
-      "/images/products/8-85ml-Angle-Rotor-pd528341178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2504,9 +2378,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Настольная Центрифуга Ротор » 12×30ml Angle Ротор",
+    "description": "12×30ml Angle Ротор...",
     "images": [
-      "/images/products/12-30ml-Angle-Rotor-pd501441178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2517,9 +2391,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Настольная Центрифуга Ротор » 6x100ml Angle Ротор",
+    "description": "6x100ml Angle Ротор...",
     "images": [
-      "/images/products/6x100ml-Angle-Rotor-pd545343178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2530,9 +2404,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Настольная Центрифуга Ротор » 4x8ml PCR Ротор",
+    "description": "4x8ml PCR Ротор...",
     "images": [
-      "/images/products/4x8ml-PCR-Rotor-pd570343178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2543,9 +2417,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Настольная Центрифуга Ротор » 4x100ml Angle Ротор",
+    "description": "4x100ml Angle Ротор...",
     "images": [
-      "/images/products/4x100ml-Angle-Rotor-pd558343178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2556,9 +2430,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Настольная Центрифуга Ротор » 8x20ml Angle Ротор",
+    "description": "8x20ml Angle Ротор...",
     "images": [
-      "/images/products/8x20ml-Angle-Rotor-pd568063178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2569,9 +2443,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Настольная Центрифуга Ротор » 8x15ml Angle Ротор",
+    "description": "8x15ml Angle Ротор...",
     "images": [
-      "/images/products/8x15ml-Angle-Rotor-pd574163178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2582,9 +2456,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Настольная Центрифуга Ротор » 6×85ml Angle Ротор",
+    "description": "6×85ml Angle Ротор...",
     "images": [
-      "/images/products/6-85ml-Angle-rotor-pd562043178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   },
@@ -2595,9 +2469,9 @@ export const SCRAPED_PRODUCTS: Product[] = [
     "specs": [
       "Quantity: : "
     ],
-    "description": "Products » Центрифуга Ротор » Настольная Центрифуга Ротор » 12×10ml Angle Ротор",
+    "description": "12×10ml Angle Ротор...",
     "images": [
-      "/images/products/12-10ml-Angle-Rotor-pd582043178.jpg"
+      "/images/placeholder.jpg"
     ],
     "inStock": true
   }

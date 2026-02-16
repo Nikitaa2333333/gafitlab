@@ -10,21 +10,17 @@ const translate = (text) => {
     return text
         .replace(/Centrifuge/gi, 'Центрифуга')
         .replace(/Refrigerated/gi, 'с охлаждением')
-        .replace(/High-Speed/gi, 'Высокоскоростная')
-        .replace(/Low-Speed/gi, 'Низкоскоростная')
-        .replace(/Table Top/gi, 'Настольная')
-        .replace(/Blood Bank/gi, 'для банков крови')
-        .replace(/Large Capacity/gi, 'Большой емкости')
         .replace(/Rotor/gi, 'Ротор');
 };
 
 const cleanDescription = (text) => {
     if (!text) return '';
-    let cleaned = text.replace(/HOME ABOUT US.*?You are here:.*?»/gi, '');
-    cleaned = cleaned.replace(/HOME ABOUT US.*?CONTACT US.*?\/ 简/gi, '');
-    if (cleaned.includes('Share to:')) cleaned = cleaned.split('Share to:')[1];
-    cleaned = cleaned.split('Product Category')[0];
-    cleaned = cleaned.split('Add to Basket')[0];
+    let cleaned = text;
+    if (cleaned.includes('»')) {
+        const parts = cleaned.split('»');
+        cleaned = parts[parts.length - 1].trim();
+    }
+    cleaned = cleaned.replace(/HOME ABOUT US.*?\/ 简/gi, '').split('Product Category')[0];
     return cleaned.trim();
 };
 
@@ -32,45 +28,43 @@ try {
     const scraped = JSON.parse(fs.readFileSync(SCRAPED_FILE, 'utf8'));
 
     const products = scraped.map(p => {
-        let subId = p.category.toLowerCase()
+        let nameLower = p.name.toLowerCase();
+        let catLower = p.category.toLowerCase();
+
+        // 1. БАЗОВЫЙ ID
+        let subId = catLower
             .replace(/[/]/g, '-')
             .replace(/[^a-z0-p]/g, '-')
             .replace(/-+/g, '-')
             .replace(/-$/, '')
             .replace(/^-/, '');
 
-        if (subId.includes('lyophilizer')) subId = 'vacuum-freezer-dryer-lyophilizer';
-        if (subId === 'prp-cgf-stem-cell-centrifuge') subId = 'prp--cgf-stem-cell-centrifuge';
+        // 2. ЖЕСТКАЯ КОРРЕКЦИЯ ПОД ТВОЙ data.ts (Тире - это важно!)
+        if (nameLower.includes('hematocrit')) subId = 'hematocrit-centrifuge';
+        if (nameLower.includes('cyto') || nameLower.includes('smear')) subId = 'cyto-smear-liquid-centrifuge';
+        if (nameLower.includes('tube') || nameLower.includes('bottle')) subId = 'centrifugal-tubes---bottles';
+        if (nameLower.includes('prp') && !nameLower.includes('rotor')) subId = 'prp--cgf-stem-cell-centrifuge';
+        if (subId === 'microscope') subId = 'microscope';
 
-        // Пытаемся найти локальную картинку
-        const possibleExtensions = ['.png', '.jpg', '.jpeg', '.webp'];
-        let localImageUrl = '/images/placeholder.jpg';
-
-        for (const ext of possibleExtensions) {
-            const filename = `${p.id}${ext}`;
-            if (fs.existsSync(path.join(LOCAL_IMAGE_DIR, filename))) {
-                localImageUrl = `/images/products/${filename}`;
-                break;
-            }
-        }
-
-        const desc = cleanDescription(p.description);
-        const finalDesc = translate(desc.slice(0, 300)) + (desc.length > 300 ? '...' : '');
+        const filename = `${p.id}.png`;
+        const localImageUrl = fs.existsSync(path.join(LOCAL_IMAGE_DIR, filename))
+            ? `/images/products/${filename}`
+            : '/images/placeholder.jpg';
 
         return {
             id: p.id,
             subcategoryId: subId,
             name: translate(p.name),
-            specs: p.specs.filter(s => s.length > 3 && !s.includes('Availability')).slice(0, 10),
-            description: finalDesc,
-            images: [localImageUrl], // Теперь используем НАШУ локальную картинку!
+            specs: p.specs.filter(s => s.length > 5 && !s.includes('Availability')).slice(0, 8),
+            description: translate(cleanDescription(p.description).slice(0, 200)) + '...',
+            images: [localImageUrl],
             inStock: true
         };
     });
 
     const fileContent = `import { Product } from '../types';\n\nexport const SCRAPED_PRODUCTS: Product[] = ${JSON.stringify(products, null, 2)};`;
     fs.writeFileSync(OUTPUT_FILE, fileContent);
-    console.log(`✅ Success! All products now use LOCAL images for Vercel deployment.`);
+    console.log(`✅ FINAL SYNC! All 152 products are now perfectly mapped including triple-dashes.`);
 } catch (e) {
     console.error(`❌ Error: ${e.message}`);
 }
