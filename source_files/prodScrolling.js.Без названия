@@ -1,0 +1,109 @@
+(function(b,c){var d=b.prodScrolling||(b.prodScrolling={});
+var a=d.prodList||(d.prodList={});
+c.extend(a,{init:function(i){var g="";
+var h=c("."+i+" .sitewidget-bd .owl-wrapper .owl-item");
+h.each(function(k,l){var j=c(l).find(".sitewidget-touchgraphicslider-title").data("pid");
+k===h.length-1?g+=j:g+=j+","
+});
+if(g.length>0){var e=b.$_phoenix==undefined;
+var f="/prod/label/get";
+if(e){f="/phoenix/admin/prod/label/"
+}else{f="/prod/label/get"
+}c.ajax({url:f,type:"GET",dataType:"json",data:{ids:g},success:function(j){h.each(function(){var l=this;
+var k=c(this).find(".sitewidget-touchgraphicslider-title").data("pid");
+if(j&&j[k]&&j[k].length>0){j[k].forEach(function(n,t){var z=j[k].length;
+if(n.labelDivision==="1"){if(n.labelType==="0"){c(l).find(".prodlist-cell a").css({opacity:n.transparency,display:"inline-block"})
+}var u="";
+if(n.showType==="0"){if(n.showPositon==="0"){var o=c(l).find(".labelfather .prodlistScrolling_label_text_tl");
+o.addClass("show");
+o.find("div").css("color",n.fontColor);
+if(n.labelType==="1"){u="<div class='discount'>";
+if(n.discountOff&&n.discountOff.length>0){u+="<span>"+n.discountOff+"</span>";
+u+="<br>"
+}if(n.discountContext&&n.discountContext.length>0){u+="<span class='currencySymbol'>Save "+n.discountSymbol+"</span>";
+u+="<span class='needExchangeValue' exchangevalue='"+n.discountContext+"'>"+n.discountContext+"</span>"
+}u+="</div>";
+o.html(u)
+}else{o.find("div").html(n.labelName)
+}var y=o.width()/1.414-6+"px";
+var q=o.width()/2.828-2;
+o.css({left:"-"+q+"px",top:y,"font-size":"10px",boxShadow:"0px -100px 0px 100px "+n.backgroundColor,backgroundColor:n.backgroundColor,zIndex:z-t})
+}else{if(n.showPositon==="1"){var w=c(l).find(".labelfather .prodlistScrolling_label_text_tr");
+w.addClass("show");
+w.find("div").css("color",n.fontColor);
+if(n.labelType==="1"){u="<div class='discount'>";
+if(n.discountOff&&n.discountOff.length>0){u+="<span>"+n.discountOff+"</span>";
+u+="<br>"
+}if(n.discountContext&&n.discountContext.length>0){u+="<span class='currencySymbol'>Save "+n.discountSymbol+"</span>";
+u+="<span class='needExchangeValue' exchangevalue='"+n.discountContext+"'>"+n.discountContext+"</span>"
+}u+="</div>";
+w.html(u)
+}else{w.find("div").html(n.labelName)
+}w.css({right:"-5px",top:"-5px","font-size":"10px!important",boxShadow:"0px -100px 0px 100px "+n.backgroundColor,zIndex:z-t,backgroundColor:n.backgroundColor})
+}else{if(n.showPositon==="2"){var m=c(l).find(".labelfather .prodlistScrolling_label_text_t");
+!m.hasClass("show")?m.addClass("show"):null;
+m.css("flex-direction","column");
+if(n.labelType==="1"){var p=document.createElement("div");
+p.setAttribute("class","discount");
+if(n.discountOff&&n.discountOff.length>0){u+="<span style='padding:0 5px'>"+n.discountOff+"</span>"
+}if(n.discountContext&&n.discountContext.length>0){u+="<span class='currencySymbol'>Save "+n.discountSymbol+"</span>";
+u+="<span class='needExchangeValue' style='padding-right:5px' exchangevalue='"+n.discountContext+"'>"+n.discountContext+"</span>"
+}p.innerHTML=u;
+p.style.backgroundColor=n.backgroundColor;
+p.style.color=n.fontColor;
+m.append(p);
+m.css("zIndex",z-t)
+}else{var x=document.createElement("div");
+x.innerHTML=n.labelName;
+x.style.backgroundColor=n.backgroundColor;
+x.style.color=n.fontColor;
+m.append(x);
+m.css("zIndex",z-t)
+}m.each(function(C,D){if(c(D).children().length>1){var F=0;
+c(D).children().each(function(G,H){F+=c(H).width()+2;
+F+=13
+});
+var E=c(l).width();
+if(F>E){c(D).css("flex-direction","column");
+c(c(D).children()[0]).css("margin-bottom","3px")
+}else{c(D).css("flex-direction","row")
+}}else{c(D).css("flex-direction","row")
+}})
+}else{if(n.showPositon==="4"){var A=c(l).find(".sitewidget-touchgraphicslider-title .inlineLabel");
+!A.hasClass("show")?A.addClass("show"):null;
+A.addClass("discount");
+if(n.labelType==="1"){if(n.discountOff&&n.discountOff.length>0){u+="<span style='padding: 0 5px'>"+n.discountOff+"</span>"
+}if(n.discountContext&&n.discountContext.length>0){u+="<span class='currencySymbol'>Save "+n.discountSymbol+"</span>";
+u+="<span class='needExchangeValue' style='padding-right: 5px' exchangevalue='"+n.discountContext+"'>"+n.discountContext+"</span>"
+}A.html(u)
+}else{A.html(n.labelName)
+}A.css({backgroundColor:n.backgroundColor,color:n.fontColor,zIndex:z-t})
+}}}}}else{if(n.showPositon==="0"){var B=c(l).find(".labelfather .prodlistScrolling_label_img_tl");
+B.addClass("show");
+B.find("img").attr("src",n.picUrl);
+B.find("img").attr("alt",n.labelName);
+B.css("zIndex",z-t)
+}else{if(n.showPositon==="1"){var s=c(l).find(".labelfather .prodlistScrolling_label_img_tr");
+s.addClass("show");
+s.find("img").attr("src",n.picUrl);
+B.find("img").attr("alt",n.labelName);
+s.css("zIndex",z-t)
+}else{if(n.showPositon==="3"){var v=c(l).find(".labelfather .prodlistScrolling_label_img_r");
+!v.hasClass("show")?v.addClass("show"):null;
+var r=document.createElement("img");
+r.setAttribute("src",n.picUrl);
+r.setAttribute("alt",n.labelName);
+v.append(r);
+v.css("zIndex",z-t)
+}}}}}else{var v=c(l).find(".labelfather .prodlistScrolling_label_img_r");
+!v.hasClass("show")?v.addClass("show"):null;
+var r=document.createElement("img");
+r.setAttribute("src",n.picUrl);
+r.setAttribute("alt",n.labelName);
+v.append(r);
+v.css("zIndex",z-t)
+}})
+}})
+}})
+}}})
+})(window,jQuery);
